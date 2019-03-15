@@ -4,7 +4,7 @@
     
     <url>
     
-      <loc>/post/2019-03-15-setting-up-academic/</loc>
+      <loc>https://epogrebnyak.github.io/post/2019-03-15-setting-up-academic/</loc>
       <lastmod>2019-03-15T10:57:57+03:00</lastmod>
     </url>
     
@@ -12,14 +12,14 @@
     
     <url>
     
-      <loc>/author/admin/</loc>
+      <loc>https://epogrebnyak.github.io/author/admin/</loc>
     </url>
     
   
     
     <url>
     
-      <loc>/author/</loc>
+      <loc>https://epogrebnyak.github.io/author/</loc>
       <priority>0</priority>
     </url>
     
@@ -27,7 +27,7 @@
     
     <url>
     
-      <loc>/authors/</loc>
+      <loc>https://epogrebnyak.github.io/authors/</loc>
       <priority>0</priority>
     </url>
     
@@ -35,7 +35,7 @@
     
     <url>
     
-      <loc>/categories/</loc>
+      <loc>https://epogrebnyak.github.io/categories/</loc>
       <priority>0</priority>
     </url>
     
@@ -43,62 +43,7 @@
     
     <url>
     
-      <loc>/</loc>
-      <lastmod>2019-03-15T10:57:57+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/post/</loc>
-      <lastmod>2019-03-15T10:57:57+03:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/publication_types/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/publication/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/talk/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/authors/admin/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>/tags/hugo/</loc>
+      <loc>https://epogrebnyak.github.io/</loc>
       <lastmod>2019-03-15T10:57:57+03:00</lastmod>
       <priority>0</priority>
     </url>
@@ -107,7 +52,62 @@
     
     <url>
     
-      <loc>/tags/setup/</loc>
+      <loc>https://epogrebnyak.github.io/post/</loc>
+      <lastmod>2019-03-15T10:57:57+03:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/publication_types/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/publication/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/talk/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/tags/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/authors/admin/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/tags/hugo/</loc>
+      <lastmod>2019-03-15T10:57:57+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/tags/setup/</loc>
       <lastmod>2019-03-15T10:57:57+03:00</lastmod>
       <priority>0</priority>
     </url>

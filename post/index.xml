@@ -2,25 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on EP says hi</title>
-    <link>/post/</link>
+    <link>https://epogrebnyak.github.io/post/</link>
     <description>Recent content in Posts on EP says hi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Evgeniy Pogrebnyak</copyright>
     <lastBuildDate>Fri, 15 Mar 2019 10:57:57 +0300</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://epogrebnyak.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Setting Up Academic Theme</title>
-      <link>/post/2019-03-15-setting-up-academic/</link>
+      <link>https://epogrebnyak.github.io/post/2019-03-15-setting-up-academic/</link>
       <pubDate>Fri, 15 Mar 2019 10:57:57 +0300</pubDate>
       
-      <guid>/post/2019-03-15-setting-up-academic/</guid>
-      <description>Academic theme is great, well-thought in design and popular with users. Did pay up for a coffee on paypal.
-I&amp;rsquo;m migrating from a Jekyll-based CV theme (was a good start and helped to sort out information, but did never lead to new contacts and was not extensible, did set up once, rarely updated).
-Some personal notes on setup: - contacts section configurtion explained in Leslie Myint blog post - addeded StackOverflow icon - moved several files (including .</description>
+      <guid>https://epogrebnyak.github.io/post/2019-03-15-setting-up-academic/</guid>
+      <description>Academic theme is great, well-thought in design and popular with users. I&amp;rsquo;m migrating from a Jekyll-based CV theme to Academic.
+CV was a good start and helped to sort out information, but did never lead to new contacts and was not extensible, did set up once, rarely updated). I will phase it out gradually.
+Some personal notes on setup:
+ contacts section configurtion explained in Leslie Myint blog post added StackOverflow icon moved several files (including .</description>
     </item>
     
   </channel>
