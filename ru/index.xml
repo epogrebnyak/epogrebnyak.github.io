@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>EP says hi on EP says hi</title>
+    <link>https://epogrebnyak.github.io/ru/</link>
+    <description>Recent content in EP says hi on EP says hi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <copyright>&amp;copy; Evgeniy Pogrebnyak</copyright>
+    <lastBuildDate>Fri, 15 Mar 2019 10:57:57 +0300</lastBuildDate>
+    <atom:link href="/ru/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Начать (и успешно продолжить) программировать на Python</title>
+      <link>https://epogrebnyak.github.io/ru/post/2019-03-16-start-python/</link>
+      <pubDate>Fri, 15 Mar 2019 10:57:57 +0300</pubDate>
+      
+      <guid>https://epogrebnyak.github.io/ru/post/2019-03-16-start-python/</guid>
+      <description>
+
+&lt;h2 id=&#34;c-чего-начать-программировать-на-питоне&#34;&gt;C чего начать программировать на Питоне?&lt;/h2&gt;
+
+&lt;p&gt;Если нужен короткий ответ - у меня наготове ссылка на &lt;a href=&#34;https://github.com/trekhleb/learn-python&#34; target=&#34;_blank&#34;&gt;сheatsheet О.Твердохлеба&lt;/a&gt;. Все, что надо знать о синтаксисе
+языка удобно сгруппировано и проиллюстрировано примерами.&lt;/p&gt;
+
+&lt;p&gt;Также хорошие введения на сайте есть &lt;a href=&#34;https://lectures.quantecon.org/py/index_learning_python.html&#34; target=&#34;_blank&#34;&gt;QuantEcon&lt;/a&gt;
+и в &lt;a href=&#34;http://scipy-lectures.org/intro/language/python_language.html&#34; target=&#34;_blank&#34;&gt;отдельной главе лекций по SciPy&lt;/a&gt;.
+В обоих источниках главы по языку предшествуют более сложному материалу и
+написаны очень хорошо и доступно. Все ссылки на английском.&lt;/p&gt;
+
+&lt;p&gt;Продублирую еще раз списком:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/trekhleb/learn-python&#34; target=&#34;_blank&#34;&gt;https://github.com/trekhleb/learn-python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lectures.quantecon.org/py/index_learning_python.html&#34; target=&#34;_blank&#34;&gt;https://lectures.quantecon.org/py/index_learning_python.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://scipy-lectures.org/intro/language/python_language.html&#34; target=&#34;_blank&#34;&gt;http://scipy-lectures.org/intro/language/python_language.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Чуть больше ссылок на best practices, книги и некоторые видео собрано &lt;a href=&#34;https://github.com/epogrebnyak/learn/blob/master/pure_python_guide.md&#34; target=&#34;_blank&#34;&gt;тут&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;план-изучения&#34;&gt;План изучения&lt;/h2&gt;
+
+&lt;p&gt;Отдельно я выписал шаги, между самым первым запуском интерпретатора
+&lt;code&gt;python -c&amp;quot;print(&#39;Hello, world!&#39;)&amp;quot;&lt;/code&gt; и непонятными, темными сторонами
+языка. Возможно, из этого списка можно сделать чеклист по уровням
+квалификации и знаниям python. Приводится ниже:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;python --version&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;print (&amp;quot;hello world&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;PEP8&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;что интересного есть на гитхабе (&lt;a href=&#34;https://github.com/topics/python&#34; target=&#34;_blank&#34;&gt;topics/python&lt;/a&gt;,
+&lt;a href=&#34;https://github.com/trending/python&#34; target=&#34;_blank&#34;&gt;trending/python&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/tagged/python?sort=votes&#34; target=&#34;_blank&#34;&gt;что интересного есть на StackOverflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;тесты (&lt;code&gt;assert&lt;/code&gt;, &lt;code&gt;unittest&lt;/code&gt;, &lt;code&gt;pytest&lt;/code&gt;, TDD)&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/TheAlgorithms/Python&#34; target=&#34;_blank&#34;&gt;алгоритмы&lt;/a&gt; и O-notation&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://docopt.org/&#34; target=&#34;_blank&#34;&gt;docopt&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://dataset.readthedocs.io/en/latest/&#34; target=&#34;_blank&#34;&gt;dataset&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;документация, sphinx&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/faif/python-patterns&#34; target=&#34;_blank&#34;&gt;design patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.python.org/3/library/abc.html&#34; target=&#34;_blank&#34;&gt;ABCs&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Буду признателен, если расскажете, какие вехи были у вас в изучении python
+(или других обалстей программирования) - как кратко назвать этот этап и
+что за ним стоит, что было или остается сложным, полюбившиеся ссылки по теме.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

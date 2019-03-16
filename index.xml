@@ -18,7 +18,7 @@
       <guid>https://epogrebnyak.github.io/post/2019-03-15-setting-up-academic/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34;&gt;Academic theme&lt;/a&gt; is great, well-thought in design and popular with users. Below is a track record of mysite setup using Hugo and Academic.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34;&gt;Academic theme&lt;/a&gt; is great, well-thought in design and popular with users. Below is a track record of my site setup using Hugo and Academic.&lt;/p&gt;
 
 &lt;h2 id=&#34;precursor&#34;&gt;Precursor&lt;/h2&gt;
 
@@ -38,21 +38,20 @@ using Ruby environment for Jekyll)&lt;/li&gt;
 
 &lt;h2 id=&#34;my-setup&#34;&gt;My setup&lt;/h2&gt;
 
-&lt;p&gt;Some steps in personal setup I have spent a bit extra time with:&lt;/p&gt;
+&lt;p&gt;Some steps in my site setup I have spent a bit extra time with:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;contacts section configurtion explained in &lt;a href=&#34;https://lmyint.github.io/post/hugo-academic-tips/#modifying-contact-section&#34; target=&#34;_blank&#34;&gt;Leslie Myint blog post&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;added StackOverflow fas icon (had to look up a font library)&lt;/li&gt;
+&lt;li&gt;contacts section configuration explained in &lt;a href=&#34;https://lmyint.github.io/post/hugo-academic-tips/#modifying-contact-section&#34; target=&#34;_blank&#34;&gt;Leslie Myint blog post&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;added StackOverflow fas icon (had to look up a font library, can be provided by default)&lt;/li&gt;
 &lt;li&gt;contact form by &lt;a href=&#34;https://formspree.io&#34; target=&#34;_blank&#34;&gt;https://formspree.io&lt;/a&gt; will need activation (both on &lt;code&gt;localhost&lt;/code&gt; and your server)&lt;/li&gt;
-&lt;li&gt;added personal photo as &lt;code&gt;avatar.png&lt;/code&gt; (from the layout code it appeared the file extention
-does not matter)&lt;/li&gt;
+&lt;li&gt;added personal photo as &lt;code&gt;avatar.png&lt;/code&gt; (from the layout code it appears that file extension  does not matter)&lt;/li&gt;
 &lt;li&gt;replaced favicon as &lt;a href=&#34;https://sourcethemes.com/academic/docs/customization/#website-icon&#34; target=&#34;_blank&#34;&gt;suggested in docs&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I disabled following sections for now:&lt;/p&gt;
+&lt;p&gt;I disabled the following sections:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;people and groups - probably good for another, collaborative site&lt;/li&gt;
+&lt;li&gt;people and groups - probably good for another, more collaborative site&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;publications&lt;/code&gt;, &lt;code&gt;featured&lt;/code&gt; (duplicated, not filled yet)&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;skills&lt;/code&gt; (great look, had it in Jekyll CV, but how do you access + must move off the front page)&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;accomplishments&lt;/code&gt; (must put a list of econometrics courses in)&lt;/li&gt;
@@ -61,9 +60,7 @@ does not matter)&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;hero&lt;/code&gt; widget&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Also moved several files (including &lt;code&gt;.sh&lt;/code&gt;) to &lt;code&gt;ignore&lt;/code&gt; folder - makes cleaner root of repository.&lt;/p&gt;
-
-&lt;p&gt;Still not sure what is the difference between tags and categories?&lt;/p&gt;
+&lt;p&gt;Also moved several files (including &lt;code&gt;.sh&lt;/code&gt;) to &lt;code&gt;ignore&lt;/code&gt; folder - cleans root of the repository.&lt;/p&gt;
 
 &lt;h2 id=&#34;is-blog-a-relic&#34;&gt;Is blog a relic?&lt;/h2&gt;
 
@@ -79,7 +76,7 @@ does not matter)&lt;/li&gt;
 
 &lt;h2 id=&#34;gratitude&#34;&gt;Gratitude&lt;/h2&gt;
 
-&lt;p&gt;I &lt;a href=&#34;https://sourcethemes.com/academic/#support&#34; target=&#34;_blank&#34;&gt;paid up for a coffee&lt;/a&gt; to Academic on paypal. A small gratitude to an open source project.&lt;/p&gt;
+&lt;p&gt;I &lt;a href=&#34;https://sourcethemes.com/academic/#support&#34; target=&#34;_blank&#34;&gt;paid up for a coffee&lt;/a&gt; to Academic on paypal.  A small gratitude to an open source project.&lt;/p&gt;
 </description>
     </item>
     

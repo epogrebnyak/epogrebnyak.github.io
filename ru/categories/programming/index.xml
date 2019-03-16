@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>programming on EP says hi</title>
+    <link>https://epogrebnyak.github.io/ru/categories/programming/</link>
+    <description>Recent content in programming on EP says hi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <copyright>&amp;copy; Evgeniy Pogrebnyak</copyright>
+    <lastBuildDate>Fri, 15 Mar 2019 10:57:57 +0300</lastBuildDate>
+    
+	<atom:link href="https://epogrebnyak.github.io/ru/categories/programming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Начать (и успешно продолжить) программировать на Python</title>
+      <link>https://epogrebnyak.github.io/ru/post/2019-03-16-start-python/</link>
+      <pubDate>Fri, 15 Mar 2019 10:57:57 +0300</pubDate>
+      
+      <guid>https://epogrebnyak.github.io/ru/post/2019-03-16-start-python/</guid>
+      <description>C чего начать программировать на Питоне? Если нужен короткий ответ - у меня наготове ссылка на сheatsheet О.Твердохлеба. Все, что надо знать о синтаксисе языка удобно сгруппировано и проиллюстрировано примерами.
+Также хорошие введения на сайте есть QuantEcon и в отдельной главе лекций по SciPy. В обоих источниках главы по языку предшествуют более сложному материалу и написаны очень хорошо и доступно. Все ссылки на английском.
+Продублирую еще раз списком:
+ https://github.</description>
+    </item>
+    
+  </channel>
+</rss>

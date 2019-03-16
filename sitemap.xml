@@ -1,116 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-    
-    <url>
-    
-      <loc>https://epogrebnyak.github.io/post/2019-03-15-setting-up-academic/</loc>
-      <lastmod>2019-03-15T10:57:57+03:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://epogrebnyak.github.io/author/admin/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://epogrebnyak.github.io/author/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://epogrebnyak.github.io/authors/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://epogrebnyak.github.io/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://epogrebnyak.github.io/</loc>
-      <lastmod>2019-03-15T10:57:57+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://epogrebnyak.github.io/post/</loc>
-      <lastmod>2019-03-15T10:57:57+03:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://epogrebnyak.github.io/publication_types/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://epogrebnyak.github.io/publication/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://epogrebnyak.github.io/talk/</loc>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://epogrebnyak.github.io/tags/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://epogrebnyak.github.io/authors/admin/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://epogrebnyak.github.io/tags/hugo/</loc>
-      <lastmod>2019-03-15T10:57:57+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    <url>
-    
-      <loc>https://epogrebnyak.github.io/tags/setup/</loc>
-      <lastmod>2019-03-15T10:57:57+03:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-</urlset>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>https://epogrebnyak.github.io/ru/sitemap.xml</loc>
+		
+	   	<lastmod>2019-03-15T10:57:57+03:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>https://epogrebnyak.github.io/en/sitemap.xml</loc>
+		
+	   	<lastmod>2019-03-15T10:57:57+03:00</lastmod>
+		
+	</sitemap>
+	
+</sitemapindex>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/ru/post/2019-03-16-start-python/</loc>
+      <lastmod>2019-03-15T10:57:57+03:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/author/admin/" hreflang="ru"/>
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/author/admin/" hreflang="en"/>
+    
+      <loc>https://epogrebnyak.github.io/ru/author/admin/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/author/" hreflang="ru"/>
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/author/" hreflang="en"/>
+    
+      <loc>https://epogrebnyak.github.io/ru/author/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/authors/" hreflang="ru"/>
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/authors/" hreflang="en"/>
+    
+      <loc>https://epogrebnyak.github.io/ru/authors/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/categories/" hreflang="ru"/>
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/categories/" hreflang="en"/>
+    
+      <loc>https://epogrebnyak.github.io/ru/categories/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/" hreflang="ru"/>
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/" hreflang="en"/>
+    
+      <loc>https://epogrebnyak.github.io/ru/</loc>
+      <lastmod>2019-03-15T10:57:57+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/post/" hreflang="ru"/>
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/post/" hreflang="en"/>
+    
+      <loc>https://epogrebnyak.github.io/ru/post/</loc>
+      <lastmod>2019-03-15T10:57:57+03:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/publication_types/" hreflang="ru"/>
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/publication_types/" hreflang="en"/>
+    
+      <loc>https://epogrebnyak.github.io/ru/publication_types/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/publication/" hreflang="ru"/>
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/publication/" hreflang="en"/>
+    
+      <loc>https://epogrebnyak.github.io/ru/publication/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/talk/" hreflang="ru"/>
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/talk/" hreflang="en"/>
+    
+      <loc>https://epogrebnyak.github.io/ru/talk/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/tags/" hreflang="ru"/>
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/tags/" hreflang="en"/>
+    
+      <loc>https://epogrebnyak.github.io/ru/tags/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/authors/admin/" hreflang="ru"/>
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/authors/admin/" hreflang="en"/>
+    
+      <loc>https://epogrebnyak.github.io/ru/authors/admin/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/ru/tags/clean-code/</loc>
+      <lastmod>2019-03-15T10:57:57+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/ru/categories/data-but-not-rocket-science/</loc>
+      <lastmod>2019-03-15T10:57:57+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/ru/categories/programming/</loc>
+      <lastmod>2019-03-15T10:57:57+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/ru/tags/python/</loc>
+      <lastmod>2019-03-15T10:57:57+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+</urlset>
