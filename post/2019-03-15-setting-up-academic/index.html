@@ -28,10 +28,9 @@
   
     
   
-  <meta name="description" content="Academic theme is great, well-thought in design and popular with users. I&rsquo;m migrating from a Jekyll-based CV theme to Academic.
-CV was a good start and helped to sort out information, but did never lead to new contacts and was not extensible, did set up once, rarely updated). I will phase it out gradually.
-Some personal notes on setup:
- contacts section configurtion explained in Leslie Myint blog post added StackOverflow icon moved several files (including .">
+  <meta name="description" content="Academic theme is great, well-thought in design and popular with users. Below is a track record of mysite setup using Hugo and Academic.
+Precursor I&rsquo;m migrating from a Jekyll-based CV theme to Academic. CV had a clean look and helped me to sort out my personal information, but it was not easily extensible. I did set it up once on Github Pages and rarely updated.
+As for site generators in general, Jekyll still looks a bit more popular than Hugo based on Github stars, but I like Hugo better, because of the following:">
 
   
   <link rel="alternate" hreflang="en-us" href="https://epogrebnyak.github.io/post/2019-03-15-setting-up-academic/">
@@ -125,10 +124,9 @@ Some personal notes on setup:
   <meta property="og:site_name" content="EP says hi">
   <meta property="og:url" content="https://epogrebnyak.github.io/post/2019-03-15-setting-up-academic/">
   <meta property="og:title" content="Setting Up Academic Theme | EP says hi">
-  <meta property="og:description" content="Academic theme is great, well-thought in design and popular with users. I&rsquo;m migrating from a Jekyll-based CV theme to Academic.
-CV was a good start and helped to sort out information, but did never lead to new contacts and was not extensible, did set up once, rarely updated). I will phase it out gradually.
-Some personal notes on setup:
- contacts section configurtion explained in Leslie Myint blog post added StackOverflow icon moved several files (including ."><meta property="og:image" content="https://epogrebnyak.github.io/img/favicon.ico">
+  <meta property="og:description" content="Academic theme is great, well-thought in design and popular with users. Below is a track record of mysite setup using Hugo and Academic.
+Precursor I&rsquo;m migrating from a Jekyll-based CV theme to Academic. CV had a clean look and helped me to sort out my personal information, but it was not easily extensible. I did set it up once on Github Pages and rarely updated.
+As for site generators in general, Jekyll still looks a bit more popular than Hugo based on Github stars, but I like Hugo better, because of the following:"><meta property="og:image" content="https://epogrebnyak.github.io/img/icon.png">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2019-03-15T10:57:57&#43;03:00">
@@ -180,7 +178,7 @@ Some personal notes on setup:
   <div class="container">
 
     
-      <a class="navbar-brand" href="/"><img src="/img/favicon.ico" alt="EP says hi"></a>
+      <a class="navbar-brand" href="/"><img src="/img/icon.png" alt="EP says hi"></a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
               data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -330,7 +328,7 @@ Some personal notes on setup:
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    2 min read
+    3 min read
   </span>
   
 
@@ -411,79 +409,68 @@ Some personal notes on setup:
     <div class="article-style" itemprop="articleBody">
       
 
-<p>Academic theme is great, well-thought in design and popular with users.  I&rsquo;m migrating from a Jekyll-based CV theme to Academic.</p>
+<p><a href="https://sourcethemes.com/academic/" target="_blank">Academic theme</a> is great, well-thought in design and popular with users. Below is a track record of mysite setup using Hugo and Academic.</p>
 
-<p>CV was a good start and helped to sort out information, but did never lead to new contacts and was not extensible, did set up once, rarely updated). I will phase it out gradually.</p>
+<h2 id="precursor">Precursor</h2>
 
-<p>Some personal notes on setup:</p>
+<p>I&rsquo;m migrating from a <a href="https://github.com/sharu725/online-cv" target="_blank">Jekyll-based CV theme</a> to Academic. CV
+had a clean look and helped me to sort out my personal information, but it was not easily extensible. I did set it up once on Github Pages and rarely updated.</p>
+
+<p>As for site generators in general, Jekyll still looks a bit more popular than Hugo based on Github
+stars, but I like Hugo better, because of the following:</p>
+
+<ul>
+<li>definitive separation of content and presentation</li>
+<li>a bit less blog-oriented (more themes to build non-blog sites)</li>
+<li>supplied as a binary, not a library (you do not need Golang installation for Hugo, but you are
+using Ruby environment for Jekyll)</li>
+<li>finally, because it has Academic theme.</li>
+</ul>
+
+<h2 id="my-setup">My setup</h2>
+
+<p>Some steps in personal setup I have spent a bit extra time with:</p>
 
 <ul>
 <li>contacts section configurtion explained in <a href="https://lmyint.github.io/post/hugo-academic-tips/#modifying-contact-section" target="_blank">Leslie Myint blog post</a></li>
-<li>added StackOverflow icon</li>
-<li>moved several files (including <code>.sh</code>) to <code>ignore folder</code> - makes cleaner root of repository</li>
-<li>disabling people and groups - probably good for another, collaborative site</li>
-<li>what is the difference between tags and categories?</li>
-<li><a href="https://formspree.io" target="_blank">https://formspree.io</a> contact for will need activation (both on <code>localhost</code> and your server)</li>
-<li>add personal photo as <code>avatar.png</code></li>
+<li>added StackOverflow fas icon (had to look up a font library)</li>
+<li>contact form by <a href="https://formspree.io" target="_blank">https://formspree.io</a> will need activation (both on <code>localhost</code> and your server)</li>
+<li>added personal photo as <code>avatar.png</code> (from the layout code it appeared the file extention
+does not matter)</li>
+<li>replaced favicon as <a href="https://sourcethemes.com/academic/docs/customization/#website-icon" target="_blank">suggested in docs</a></li>
 </ul>
 
-<p>I disabled following sections:</p>
+<p>I disabled following sections for now:</p>
 
 <ul>
+<li>people and groups - probably good for another, collaborative site</li>
 <li><code>publications</code>, <code>featured</code> (duplicated, not filled yet)</li>
 <li><code>skills</code> (great look, had it in Jekyll CV, but how do you access + must move off the front page)</li>
 <li><code>accomplishments</code> (must put a list of econometrics courses in)</li>
 <li><code>talks</code> (would be nice to recollect!)</li>
 <li><code>experience</code> (to fill later, was not filled in a CV)</li>
-<li>what is <code>hero</code> for?</li>
+<li><code>hero</code> widget</li>
 </ul>
 
-<p>I first disabled the blog too and thought it was such an archaic activity - writing a blog,
-but now I see it as a form of notetaking and knowledge management. And the best way of
-managing some knowledge is:</p>
+<p>Also moved several files (including <code>.sh</code>) to <code>ignore</code> folder - makes cleaner root of repository.</p>
+
+<p>Still not sure what is the difference between tags and categories?</p>
+
+<h2 id="is-blog-a-relic">Is blog a relic?</h2>
+
+<p>I first disabled the blog too. I thought of blogging as such an archaic activity, but now I see it as a form of notetaking and knowledge management. And the best way of managing some internal knowledge is:</p>
 
 <p><blockquote class="twitter-tweet"><p lang="en" dir="ltr">The most effective way to share knowledge within your organization is to share it with the whole world</p>&mdash; Chris Whong (@chris_whong) <a href="https://twitter.com/chris_whong/status/1106170436411445249?ref_src=twsrc%5Etfw">March 14, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></p>
-
-<h2 id="next-steps">Next steps</h2>
-
-<h4 id="design">Design</h4>
-
-<ul>
-<li>replace favicon</li>
-</ul>
-
-<h4 id="content">Content</h4>
-
-<ul>
-<li>use lighthouse repo to sort out topics</li>
-<li>publications</li>
-<li>talks</li>
-<li>presentations</li>
-<li>tutorials and courses</li>
-<li>bilingual</li>
-</ul>
-
-<h4 id="hosting">Hosting</h4>
-
-<ul>
-<li>build on AWS Amplify</li>
-<li>new domain</li>
-</ul>
-
-<h4 id="not-todo">Not todo</h4>
-
-<ul>
-<li>maybe duplicate non e-mail contacts in bottom section</li>
-<li>maybe domain e-mail (?)</li>
-</ul>
 
 <h2 id="why-filtering">Why filtering?</h2>
 
 <p>Also is <a href="https://sourcethemes.com/academic" target="_blank">Academic documentation web site</a> blocking traffic from Russia? A provider thing or site configuration? Had to use a proxy to access it, but the proxy also interferes with <code>localhost</code> - rather messy.</p>
 
+<p>UPDATE: blocking no more as of 16-03-2019. Maybe a coffee helped.</p>
+
 <h2 id="gratitude">Gratitude</h2>
 
-<p>I did <a href="https://sourcethemes.com/academic/#support" target="_blank">pay up for a coffee</a> to Academic on paypal. A small gratitude to an open source project.</p>
+<p>I <a href="https://sourcethemes.com/academic/#support" target="_blank">paid up for a coffee</a> to Academic on paypal. A small gratitude to an open source project.</p>
 
     </div>
 

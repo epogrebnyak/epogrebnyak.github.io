@@ -18,79 +18,68 @@
       <guid>https://epogrebnyak.github.io/post/2019-03-15-setting-up-academic/</guid>
       <description>
 
-&lt;p&gt;Academic theme is great, well-thought in design and popular with users.  I&amp;rsquo;m migrating from a Jekyll-based CV theme to Academic.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://sourcethemes.com/academic/&#34; target=&#34;_blank&#34;&gt;Academic theme&lt;/a&gt; is great, well-thought in design and popular with users. Below is a track record of mysite setup using Hugo and Academic.&lt;/p&gt;
 
-&lt;p&gt;CV was a good start and helped to sort out information, but did never lead to new contacts and was not extensible, did set up once, rarely updated). I will phase it out gradually.&lt;/p&gt;
+&lt;h2 id=&#34;precursor&#34;&gt;Precursor&lt;/h2&gt;
 
-&lt;p&gt;Some personal notes on setup:&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m migrating from a &lt;a href=&#34;https://github.com/sharu725/online-cv&#34; target=&#34;_blank&#34;&gt;Jekyll-based CV theme&lt;/a&gt; to Academic. CV
+had a clean look and helped me to sort out my personal information, but it was not easily extensible. I did set it up once on Github Pages and rarely updated.&lt;/p&gt;
+
+&lt;p&gt;As for site generators in general, Jekyll still looks a bit more popular than Hugo based on Github
+stars, but I like Hugo better, because of the following:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;definitive separation of content and presentation&lt;/li&gt;
+&lt;li&gt;a bit less blog-oriented (more themes to build non-blog sites)&lt;/li&gt;
+&lt;li&gt;supplied as a binary, not a library (you do not need Golang installation for Hugo, but you are
+using Ruby environment for Jekyll)&lt;/li&gt;
+&lt;li&gt;finally, because it has Academic theme.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;my-setup&#34;&gt;My setup&lt;/h2&gt;
+
+&lt;p&gt;Some steps in personal setup I have spent a bit extra time with:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;contacts section configurtion explained in &lt;a href=&#34;https://lmyint.github.io/post/hugo-academic-tips/#modifying-contact-section&#34; target=&#34;_blank&#34;&gt;Leslie Myint blog post&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;added StackOverflow icon&lt;/li&gt;
-&lt;li&gt;moved several files (including &lt;code&gt;.sh&lt;/code&gt;) to &lt;code&gt;ignore folder&lt;/code&gt; - makes cleaner root of repository&lt;/li&gt;
-&lt;li&gt;disabling people and groups - probably good for another, collaborative site&lt;/li&gt;
-&lt;li&gt;what is the difference between tags and categories?&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://formspree.io&#34; target=&#34;_blank&#34;&gt;https://formspree.io&lt;/a&gt; contact for will need activation (both on &lt;code&gt;localhost&lt;/code&gt; and your server)&lt;/li&gt;
-&lt;li&gt;add personal photo as &lt;code&gt;avatar.png&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;added StackOverflow fas icon (had to look up a font library)&lt;/li&gt;
+&lt;li&gt;contact form by &lt;a href=&#34;https://formspree.io&#34; target=&#34;_blank&#34;&gt;https://formspree.io&lt;/a&gt; will need activation (both on &lt;code&gt;localhost&lt;/code&gt; and your server)&lt;/li&gt;
+&lt;li&gt;added personal photo as &lt;code&gt;avatar.png&lt;/code&gt; (from the layout code it appeared the file extention
+does not matter)&lt;/li&gt;
+&lt;li&gt;replaced favicon as &lt;a href=&#34;https://sourcethemes.com/academic/docs/customization/#website-icon&#34; target=&#34;_blank&#34;&gt;suggested in docs&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I disabled following sections:&lt;/p&gt;
+&lt;p&gt;I disabled following sections for now:&lt;/p&gt;
 
 &lt;ul&gt;
+&lt;li&gt;people and groups - probably good for another, collaborative site&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;publications&lt;/code&gt;, &lt;code&gt;featured&lt;/code&gt; (duplicated, not filled yet)&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;skills&lt;/code&gt; (great look, had it in Jekyll CV, but how do you access + must move off the front page)&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;accomplishments&lt;/code&gt; (must put a list of econometrics courses in)&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;talks&lt;/code&gt; (would be nice to recollect!)&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;experience&lt;/code&gt; (to fill later, was not filled in a CV)&lt;/li&gt;
-&lt;li&gt;what is &lt;code&gt;hero&lt;/code&gt; for?&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;hero&lt;/code&gt; widget&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;I first disabled the blog too and thought it was such an archaic activity - writing a blog,
-but now I see it as a form of notetaking and knowledge management. And the best way of
-managing some knowledge is:&lt;/p&gt;
+&lt;p&gt;Also moved several files (including &lt;code&gt;.sh&lt;/code&gt;) to &lt;code&gt;ignore&lt;/code&gt; folder - makes cleaner root of repository.&lt;/p&gt;
+
+&lt;p&gt;Still not sure what is the difference between tags and categories?&lt;/p&gt;
+
+&lt;h2 id=&#34;is-blog-a-relic&#34;&gt;Is blog a relic?&lt;/h2&gt;
+
+&lt;p&gt;I first disabled the blog too. I thought of blogging as such an archaic activity, but now I see it as a form of notetaking and knowledge management. And the best way of managing some internal knowledge is:&lt;/p&gt;
 
 &lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;The most effective way to share knowledge within your organization is to share it with the whole world&lt;/p&gt;&amp;mdash; Chris Whong (@chris_whong) &lt;a href=&#34;https://twitter.com/chris_whong/status/1106170436411445249?ref_src=twsrc%5Etfw&#34;&gt;March 14, 2019&lt;/a&gt;&lt;/blockquote&gt; &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;next-steps&#34;&gt;Next steps&lt;/h2&gt;
-
-&lt;h4 id=&#34;design&#34;&gt;Design&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;replace favicon&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;content&#34;&gt;Content&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;use lighthouse repo to sort out topics&lt;/li&gt;
-&lt;li&gt;publications&lt;/li&gt;
-&lt;li&gt;talks&lt;/li&gt;
-&lt;li&gt;presentations&lt;/li&gt;
-&lt;li&gt;tutorials and courses&lt;/li&gt;
-&lt;li&gt;bilingual&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;hosting&#34;&gt;Hosting&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;build on AWS Amplify&lt;/li&gt;
-&lt;li&gt;new domain&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&#34;not-todo&#34;&gt;Not todo&lt;/h4&gt;
-
-&lt;ul&gt;
-&lt;li&gt;maybe duplicate non e-mail contacts in bottom section&lt;/li&gt;
-&lt;li&gt;maybe domain e-mail (?)&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;h2 id=&#34;why-filtering&#34;&gt;Why filtering?&lt;/h2&gt;
 
 &lt;p&gt;Also is &lt;a href=&#34;https://sourcethemes.com/academic&#34; target=&#34;_blank&#34;&gt;Academic documentation web site&lt;/a&gt; blocking traffic from Russia? A provider thing or site configuration? Had to use a proxy to access it, but the proxy also interferes with &lt;code&gt;localhost&lt;/code&gt; - rather messy.&lt;/p&gt;
 
+&lt;p&gt;UPDATE: blocking no more as of 16-03-2019. Maybe a coffee helped.&lt;/p&gt;
+
 &lt;h2 id=&#34;gratitude&#34;&gt;Gratitude&lt;/h2&gt;
 
-&lt;p&gt;I did &lt;a href=&#34;https://sourcethemes.com/academic/#support&#34; target=&#34;_blank&#34;&gt;pay up for a coffee&lt;/a&gt; to Academic on paypal. A small gratitude to an open source project.&lt;/p&gt;
+&lt;p&gt;I &lt;a href=&#34;https://sourcethemes.com/academic/#support&#34; target=&#34;_blank&#34;&gt;paid up for a coffee&lt;/a&gt; to Academic on paypal. A small gratitude to an open source project.&lt;/p&gt;
 </description>
     </item>
     
