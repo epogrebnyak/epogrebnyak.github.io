@@ -18,30 +18,25 @@
       <guid>https://epogrebnyak.github.io/ru/post/2019-03-16-start-python/</guid>
       <description>
 
-&lt;blockquote&gt;
-&lt;p&gt;Using (&amp;hellip;) online tutorials is like trying to learn how to cook by stabbing at random buttons on an unlabeled microwave.&lt;/p&gt;
-&lt;/blockquote&gt;
+&lt;h2 id=&#34;c-чего-начать&#34;&gt;C чего начать?&lt;/h2&gt;
 
-&lt;p&gt;&lt;a href=&#34;https://www.technologyreview.com/s/429438/dear-everyone-teaching-programming-youre-doing-it-wrong/&#34; target=&#34;_blank&#34;&gt;2012&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&#34;c-чего-начать-программировать-на-питоне&#34;&gt;C чего начать программировать на Питоне?&lt;/h2&gt;
-
-&lt;p&gt;Если нужен короткий ответ - вседа рекомендую &lt;a href=&#34;https://github.com/trekhleb/learn-python&#34; target=&#34;_blank&#34;&gt;learn-python О.Твердохлеба&lt;/a&gt;. Лучше всего подойдет тем, кто
+&lt;p&gt;Если нужен короткий ответ - всегда рекомендую &lt;a href=&#34;https://github.com/trekhleb/learn-python&#34; target=&#34;_blank&#34;&gt;learn-python О.Твердохлеба&lt;/a&gt;. Лучше всего подойдет тем, кто
 когда-то начинал программировать (Basic, Pascal, VBA) и хочет восстановить навык.&lt;/p&gt;
 
-&lt;p&gt;Также хорошие введения  есть на сайте &lt;a href=&#34;https://lectures.quantecon.org/py/index_learning_python.html&#34; target=&#34;_blank&#34;&gt;QuantEcon&lt;/a&gt; (подйдет не только экономистам)
+&lt;p&gt;Также хорошие введения есть на сайте &lt;a href=&#34;https://lectures.quantecon.org/py/index_learning_python.html&#34; target=&#34;_blank&#34;&gt;QuantEcon&lt;/a&gt; (эта часть
+именно про Python, легко доступна для неэкономистов)
 и в &lt;a href=&#34;http://scipy-lectures.org/intro/language/python_language.html&#34; target=&#34;_blank&#34;&gt;лекциях по SciPy&lt;/a&gt;.
-Обе главы по введению в Python написаны очень хорошо, доступно, детально.&lt;/p&gt;
+Обе главы написаны очень хорошо, QuantEcon более лаконичен, SciPy детальнее. Все материалы
+на английском.&lt;/p&gt;
 
-&lt;p&gt;Продублирую еще раз списком (все на английском):&lt;/p&gt;
+&lt;p&gt;Продублирую еще раз списком:&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/trekhleb/learn-python&#34; target=&#34;_blank&#34;&gt;https://github.com/trekhleb/learn-python&lt;/a&gt; - все, что надо знать о синтаксисе
-языка удобно сгруппировано и проиллюстрировано примерами.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://lectures.quantecon.org/py/index_learning_python.html&#34; target=&#34;_blank&#34;&gt;https://lectures.quantecon.org/py/index_learning_python.html&lt;/a&gt; - начальная глава
+&lt;li&gt;&lt;a href=&#34;https://github.com/trekhleb/learn-python&#34; target=&#34;_blank&#34;&gt;trekhleb/learn-python&lt;/a&gt; - все, что надо знать о синтаксисе языка удобно сгруппировано и проиллюстрировано примерами&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lectures.quantecon.org/py/index_learning_python.html&#34; target=&#34;_blank&#34;&gt;QuantEcon&lt;/a&gt; - начальная глава
 более сложного учебника&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://scipy-lectures.org/intro/language/python_language.html&#34; target=&#34;_blank&#34;&gt;http://scipy-lectures.org/intro/language/python_language.html&lt;/a&gt; - аналогично
-&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://scipy-lectures.org/intro/language/python_language.html&#34; target=&#34;_blank&#34;&gt;лекция из SciPy&lt;/a&gt; - аналогично,
+начальная глава более полного курса&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Для более подробного погружения я собрал &lt;a href=&#34;https://github.com/epogrebnyak/learn/blob/master/pure_python_guide.md&#34; target=&#34;_blank&#34;&gt;ссылки на best practices, книги и некоторые видео&lt;/a&gt;.&lt;/p&gt;
@@ -52,43 +47,150 @@
 и далекими, непонятными, темными сторонами языка, которые выявляются
 после длительного изучения:&lt;/p&gt;
 
-&lt;p&gt;&amp;mdash;&amp;mdash;&amp;mdash;-|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;
-          |&lt;br /&gt;
-&amp;mdash;&amp;mdash;&amp;mdash;-|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;
-Задача    | Установить Python
-Идея      | Сам &lt;code&gt;python.exe&lt;/code&gt; это исполняемый файл
-1 строка  | &lt;code&gt;python --version&lt;/code&gt;
-Сложности | переменная PATH, конфликты версий&lt;/p&gt;
+&lt;h3 id=&#34;1-где-живет-программа&#34;&gt;1. Где живет программа&lt;/h3&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&amp;nbsp;&lt;/th&gt;
+&lt;th&gt;Установить Python&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Идея&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;python.exe&lt;/code&gt; это исполняемый файл где-то в файловой системе&lt;BR&gt; Он запускается с аргументами  и опциями.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;1 строка&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;python --version&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Сложности&lt;/td&gt;
+&lt;td&gt;Переменная PATH, конфликты версий&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;&amp;nbsp;&lt;/th&gt;
+&lt;th&gt;REPL&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Идея&lt;/td&gt;
+&lt;td&gt;Программа это текстовый файл, интепретатор это цикл.&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;1 строка&lt;/td&gt;
+&lt;td&gt;&lt;code&gt;print (&#39;Hello, world!&#39;)&lt;/code&gt;, &lt;code&gt;python -c &amp;quot;print(&#39;Hello, world!&#39;)&amp;quot;&lt;/code&gt;&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td&gt;Сложности&lt;/td&gt;
+&lt;td&gt;Выбор IDE. IDE - это не сам Python.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;h3 id=&#34;2-основная-часть-синтаксиса-и-логики-языка&#34;&gt;2. Основная часть синтаксиса и логики языка.&lt;/h3&gt;
+
+&lt;h4 id=&#34;выражения-и-операторы-переменные&#34;&gt;Выражения и операторы. Переменные.&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Интерпретатор может поработать калькулятором.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt; 1 + 3 * (10 - 2)
+25
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;типы-и-структуры-данных&#34;&gt;Типы и структуры данных.&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Числа и строки разные вещи.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt; isinstance(&amp;quot;abc&amp;quot;, str) &amp;amp; isinstance(1, int)
+True
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Списки и словари (containers) полезны .&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt; colors = [&#39;red&#39;, &#39;blue&#39;, &#39;green&#39;, &#39;black&#39;, &#39;white&#39;]
+&amp;gt;&amp;gt; colors[0]
+&amp;quot;red&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt; {1:&amp;quot;I&amp;quot;, 2:&amp;quot;II&amp;quot;, 3:&amp;quot;III&amp;quot;, 4:&amp;quot;IV&amp;quot;, 5:&amp;quot;V&amp;quot;}[4]
+&amp;quot;IV&amp;quot;
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;функции-стандартная-библиотека&#34;&gt;Функции. Стандартная библиотека.&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Вычисления можно сгруппировать.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;def add(a, b):
+    return a + b
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;условное-исполнение-if-then-else-цикл-for&#34;&gt;Условное исполнение &lt;code&gt;if-then-else&lt;/code&gt;. Цикл &lt;code&gt;for&lt;/code&gt;.&lt;/h4&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Исполнение программы может куда-то перескаивать.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;for x in [1,2,3,4]: 
+    if (x % 2) == 0:
+        print(x, &amp;quot;is even.&amp;quot;)
+    else:
+        s = &amp;quot;odd&amp;quot;
+        print(x, &amp;quot;is odd.&amp;quot;)    
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h4 id=&#34;3-другие-важные-пункты&#34;&gt;3. Другие важные пункты.&lt;/h4&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;code&gt;python --version&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;print (&#39;Hello, world!&#39;)&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;python -c &amp;quot;print(&#39;Hello, world!&#39;)&amp;quot;&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
-&lt;li&gt;PEP8&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
-&lt;li&gt;проекты на github (&lt;a href=&#34;https://github.com/topics/python&#34; target=&#34;_blank&#34;&gt;topics/python&lt;/a&gt;,
-&lt;a href=&#34;https://github.com/trending/python&#34; target=&#34;_blank&#34;&gt;trending/python&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/tagged/python?sort=votes&#34; target=&#34;_blank&#34;&gt;интересные ответы на StackOverflow&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
-&lt;li&gt;тесты (&lt;code&gt;assert&lt;/code&gt;, &lt;code&gt;unittest&lt;/code&gt;, &lt;code&gt;pytest&lt;/code&gt;, TDD)&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/TheAlgorithms/Python&#34; target=&#34;_blank&#34;&gt;алгоритмы&lt;/a&gt; и O-notation&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://docopt.org/&#34; target=&#34;_blank&#34;&gt;docopt&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://dataset.readthedocs.io/en/latest/&#34; target=&#34;_blank&#34;&gt;dataset&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
-&lt;li&gt;docstrings, документация, sphinx&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/faif/python-patterns&#34; target=&#34;_blank&#34;&gt;design patterns&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.python.org/3/library/abc.html&#34; target=&#34;_blank&#34;&gt;ABCs&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&amp;hellip;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;import keyword; keyword.kwlist&lt;/code&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://stackoverflow.com/questions/tagged/python?sort=votes&#34; target=&#34;_blank&#34;&gt;StackOverflow&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;PEP8&lt;/code&gt; (autopep, black), docstrings, sphinx.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;IO (file): &lt;code&gt;pathlib&lt;/code&gt;, &lt;code&gt;csv&lt;/code&gt;.  IO (CLI): &lt;a href=&#34;http://docopt.org/&#34; target=&#34;_blank&#34;&gt;docopt&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Databases, SQL: &lt;a href=&#34;https://dataset.readthedocs.io/en/latest/&#34; target=&#34;_blank&#34;&gt;dataset&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;code&gt;requests&lt;/code&gt;, &lt;code&gt;flask&lt;/code&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Тесты и TDD: &lt;code&gt;assert&lt;/code&gt;, &lt;code&gt;unittest&lt;/code&gt;, &lt;code&gt;pytest&lt;/code&gt;. Dependency injection.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;OOP: &lt;code&gt;id()&lt;/code&gt;, &lt;code&gt;dir()&lt;/code&gt;, &lt;a href=&#34;https://docs.python.org/3/library/abc.html&#34; target=&#34;_blank&#34;&gt;ABCs&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/TheAlgorithms/Python&#34; target=&#34;_blank&#34;&gt;Алгоритмы&lt;/a&gt; и O-notation.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/faif/python-patterns&#34; target=&#34;_blank&#34;&gt;Design patterns&lt;/a&gt;.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;IDEs (IDLE, VSCode, Pycharm) and Jupyter.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Productivity: command line, git, CI.&lt;/p&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;Буду признателен, если расскажете, какие вехи были у вас в изучении python
-(или других обалстей программирования) - как кратко назвать этот этап и
-что за ним стоит, что было или остается сложным, полюбившиеся ссылки по теме.&lt;/p&gt;
+(или других областей программирования) - как кратко назвать этот этап и
+что за ним стоит, что было или остается сложным, возможно - ссылки по теме.&lt;/p&gt;
 
 &lt;h2 id=&#34;педагогика-какая-то-в-этом-есть&#34;&gt;Педагогика какая-то в этом есть?&lt;/h2&gt;
 
@@ -123,6 +225,31 @@
 &lt;li&gt;&lt;a href=&#34;https://teachyourselfcs.com/&#34; target=&#34;_blank&#34;&gt;https://teachyourselfcs.com/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/ossu/computer-science&#34; target=&#34;_blank&#34;&gt;https://github.com/ossu/computer-science&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/donnemartin/system-design-primer&#34; target=&#34;_blank&#34;&gt;https://github.com/donnemartin/system-design-primer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;а-как-же-courser-a&#34;&gt;А как же Courser&amp;rsquo;a&lt;/h2&gt;
+
+&lt;p&gt;Почему бы не попробовать, но есть риски:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Using online tutorials is like trying to learn how to cook by stabbing at random buttons on an unlabeled microwave. &lt;a href=&#34;https://www.technologyreview.com/s/429438/dear-everyone-teaching-programming-youre-doing-it-wrong/&#34; target=&#34;_blank&#34;&gt;A blog in 2012&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Этот datacamp&amp;hellip; Он по-моему ничему вообще не учит. (От знакомого, 2019).&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;куда-за-мотивацией&#34;&gt;Куда за мотивацией?&lt;/h2&gt;
+
+&lt;p&gt;Github:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/topics/python&#34; target=&#34;_blank&#34;&gt;topics/python&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/trending/python&#34; target=&#34;_blank&#34;&gt;trending/python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Python developers survey 2018:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.jetbrains.com/research/python-developers-survey-2018&#34; target=&#34;_blank&#34;&gt;https://www.jetbrains.com/research/python-developers-survey-2018&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>
