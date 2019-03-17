@@ -18,42 +18,58 @@
       <guid>https://epogrebnyak.github.io/ru/post/2019-03-16-start-python/</guid>
       <description>
 
+&lt;blockquote&gt;
+&lt;p&gt;Using (&amp;hellip;) online tutorials is like trying to learn how to cook by stabbing at random buttons on an unlabeled microwave.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.technologyreview.com/s/429438/dear-everyone-teaching-programming-youre-doing-it-wrong/&#34; target=&#34;_blank&#34;&gt;2012&lt;/a&gt;&lt;/p&gt;
+
 &lt;h2 id=&#34;c-чего-начать-программировать-на-питоне&#34;&gt;C чего начать программировать на Питоне?&lt;/h2&gt;
 
-&lt;p&gt;Если нужен короткий ответ - у меня наготове ссылка на &lt;a href=&#34;https://github.com/trekhleb/learn-python&#34; target=&#34;_blank&#34;&gt;сheatsheet О.Твердохлеба&lt;/a&gt;. Все, что надо знать о синтаксисе
-языка удобно сгруппировано и проиллюстрировано примерами.&lt;/p&gt;
+&lt;p&gt;Если нужен короткий ответ - вседа рекомендую &lt;a href=&#34;https://github.com/trekhleb/learn-python&#34; target=&#34;_blank&#34;&gt;learn-python О.Твердохлеба&lt;/a&gt;. Лучше всего подойдет тем, кто
+когда-то начинал программировать (Basic, Pascal, VBA) и хочет восстановить навык.&lt;/p&gt;
 
-&lt;p&gt;Также хорошие введения на сайте есть &lt;a href=&#34;https://lectures.quantecon.org/py/index_learning_python.html&#34; target=&#34;_blank&#34;&gt;QuantEcon&lt;/a&gt;
-и в &lt;a href=&#34;http://scipy-lectures.org/intro/language/python_language.html&#34; target=&#34;_blank&#34;&gt;отдельной главе лекций по SciPy&lt;/a&gt;.
-В обоих источниках главы по языку предшествуют более сложному материалу и
-написаны очень хорошо и доступно. Все ссылки на английском.&lt;/p&gt;
+&lt;p&gt;Также хорошие введения  есть на сайте &lt;a href=&#34;https://lectures.quantecon.org/py/index_learning_python.html&#34; target=&#34;_blank&#34;&gt;QuantEcon&lt;/a&gt; (подйдет не только экономистам)
+и в &lt;a href=&#34;http://scipy-lectures.org/intro/language/python_language.html&#34; target=&#34;_blank&#34;&gt;лекциях по SciPy&lt;/a&gt;.
+Обе главы по введению в Python написаны очень хорошо, доступно, детально.&lt;/p&gt;
 
-&lt;p&gt;Продублирую еще раз списком:&lt;/p&gt;
+&lt;p&gt;Продублирую еще раз списком (все на английском):&lt;/p&gt;
 
 &lt;ol&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/trekhleb/learn-python&#34; target=&#34;_blank&#34;&gt;https://github.com/trekhleb/learn-python&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://lectures.quantecon.org/py/index_learning_python.html&#34; target=&#34;_blank&#34;&gt;https://lectures.quantecon.org/py/index_learning_python.html&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;http://scipy-lectures.org/intro/language/python_language.html&#34; target=&#34;_blank&#34;&gt;http://scipy-lectures.org/intro/language/python_language.html&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/trekhleb/learn-python&#34; target=&#34;_blank&#34;&gt;https://github.com/trekhleb/learn-python&lt;/a&gt; - все, что надо знать о синтаксисе
+языка удобно сгруппировано и проиллюстрировано примерами.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://lectures.quantecon.org/py/index_learning_python.html&#34; target=&#34;_blank&#34;&gt;https://lectures.quantecon.org/py/index_learning_python.html&lt;/a&gt; - начальная глава
+более сложного учебника&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://scipy-lectures.org/intro/language/python_language.html&#34; target=&#34;_blank&#34;&gt;http://scipy-lectures.org/intro/language/python_language.html&lt;/a&gt; - аналогично
+&lt;br /&gt;&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;p&gt;Чуть больше ссылок на best practices, книги и некоторые видео собрано &lt;a href=&#34;https://github.com/epogrebnyak/learn/blob/master/pure_python_guide.md&#34; target=&#34;_blank&#34;&gt;тут&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Для более подробного погружения я собрал &lt;a href=&#34;https://github.com/epogrebnyak/learn/blob/master/pure_python_guide.md&#34; target=&#34;_blank&#34;&gt;ссылки на best practices, книги и некоторые видео&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;план-изучения&#34;&gt;План изучения&lt;/h2&gt;
 
-&lt;p&gt;Отдельно я выписал шаги, между самым первым запуском интерпретатора
-&lt;code&gt;python -c&amp;quot;print(&#39;Hello, world!&#39;)&amp;quot;&lt;/code&gt; и непонятными, темными сторонами
-языка. Возможно, из этого списка можно сделать чеклист по уровням
-квалификации и знаниям python. Приводится ниже:&lt;/p&gt;
+&lt;p&gt;Я выписал шаги между самым первым запуском интерпретатора
+и далекими, непонятными, темными сторонами языка, которые выявляются
+после длительного изучения:&lt;/p&gt;
+
+&lt;p&gt;&amp;mdash;&amp;mdash;&amp;mdash;-|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;
+          |&lt;br /&gt;
+&amp;mdash;&amp;mdash;&amp;mdash;-|&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;
+Задача    | Установить Python
+Идея      | Сам &lt;code&gt;python.exe&lt;/code&gt; это исполняемый файл
+1 строка  | &lt;code&gt;python --version&lt;/code&gt;
+Сложности | переменная PATH, конфликты версий&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;&lt;code&gt;python --version&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;print (&amp;quot;hello world&amp;quot;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;print (&#39;Hello, world!&#39;)&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;python -c &amp;quot;print(&#39;Hello, world!&#39;)&amp;quot;&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&amp;hellip;&lt;/li&gt;
 &lt;li&gt;PEP8&lt;/li&gt;
 &lt;li&gt;&amp;hellip;&lt;/li&gt;
-&lt;li&gt;что интересного есть на гитхабе (&lt;a href=&#34;https://github.com/topics/python&#34; target=&#34;_blank&#34;&gt;topics/python&lt;/a&gt;,
+&lt;li&gt;проекты на github (&lt;a href=&#34;https://github.com/topics/python&#34; target=&#34;_blank&#34;&gt;topics/python&lt;/a&gt;,
 &lt;a href=&#34;https://github.com/trending/python&#34; target=&#34;_blank&#34;&gt;trending/python&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/tagged/python?sort=votes&#34; target=&#34;_blank&#34;&gt;что интересного есть на StackOverflow&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://stackoverflow.com/questions/tagged/python?sort=votes&#34; target=&#34;_blank&#34;&gt;интересные ответы на StackOverflow&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&amp;hellip;&lt;/li&gt;
 &lt;li&gt;тесты (&lt;code&gt;assert&lt;/code&gt;, &lt;code&gt;unittest&lt;/code&gt;, &lt;code&gt;pytest&lt;/code&gt;, TDD)&lt;/li&gt;
 &lt;li&gt;&amp;hellip;&lt;/li&gt;
@@ -62,7 +78,7 @@
 &lt;li&gt;&lt;a href=&#34;http://docopt.org/&#34; target=&#34;_blank&#34;&gt;docopt&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://dataset.readthedocs.io/en/latest/&#34; target=&#34;_blank&#34;&gt;dataset&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&amp;hellip;&lt;/li&gt;
-&lt;li&gt;документация, sphinx&lt;/li&gt;
+&lt;li&gt;docstrings, документация, sphinx&lt;/li&gt;
 &lt;li&gt;&amp;hellip;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/faif/python-patterns&#34; target=&#34;_blank&#34;&gt;design patterns&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&amp;hellip;&lt;/li&gt;
@@ -73,6 +89,41 @@
 &lt;p&gt;Буду признателен, если расскажете, какие вехи были у вас в изучении python
 (или других обалстей программирования) - как кратко назвать этот этап и
 что за ним стоит, что было или остается сложным, полюбившиеся ссылки по теме.&lt;/p&gt;
+
+&lt;h2 id=&#34;педагогика-какая-то-в-этом-есть&#34;&gt;Педагогика какая-то в этом есть?&lt;/h2&gt;
+
+&lt;p&gt;Мне кажется, основная проблема в обучении программированию - не упрощение или переупаковка материала,
+а поддержание мотивации обучающихся.&lt;/p&gt;
+
+&lt;p&gt;Хорошо известно, что идеально обучение с конкретными примерами, задачами близкими
+к сфере знаний пользователя, кейсы и так далее. Проблема с этими материалами - как с курицей и яйцом: пока навыков мало освоить сложный пример нельзя, а простые примеры редко цепляют подлинный интерес и поддерживают мотивацию (тут хочется ошибаться).&lt;/p&gt;
+
+&lt;p&gt;Выход из этого круга либо &amp;ldquo;сверху&amp;rdquo; (показать как работает итоговая программа и разобраться в начинке - пример fast.ai), &amp;ldquo;сбоку&amp;rdquo; (программы поменьше и разбор быстрее, Learn Python the Hard Way) или &amp;ldquo;снизу&amp;rdquo; (все-таки запастись терпением на долгую подготовку, Norwig).&lt;/p&gt;
+
+&lt;p&gt;Пара ссылок на тему &amp;ldquo;а как учить?&amp;rdquo;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1006023&#34; target=&#34;_blank&#34;&gt;Ten quick tips for teaching programming (2018)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.reddit.com/r/learnprogramming/comments/5zc24o/the_best_way_to_learn_how_to_code/&#34; target=&#34;_blank&#34;&gt;The Best Way To Learn How To Code (3 правила)&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://norvig.com/21-days.html&#34; target=&#34;_blank&#34;&gt;П.Норвиг. Научитесь программировать за 10 лет&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://worrydream.com/LearnableProgramming/&#34; target=&#34;_blank&#34;&gt;Требования к языку программирования и среде обучения&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;не-python-а-computer-science&#34;&gt;Не Python, а computer science&lt;/h2&gt;
+
+&lt;p&gt;Почти классика:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://interactivepython.org/courselib/static/thinkcspy/index.html&#34; target=&#34;_blank&#34;&gt;http://interactivepython.org/courselib/static/thinkcspy/index.html&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Больше хардкора:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://teachyourselfcs.com/&#34; target=&#34;_blank&#34;&gt;https://teachyourselfcs.com/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ossu/computer-science&#34; target=&#34;_blank&#34;&gt;https://github.com/ossu/computer-science&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/donnemartin/system-design-primer&#34; target=&#34;_blank&#34;&gt;https://github.com/donnemartin/system-design-primer&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
