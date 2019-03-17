@@ -1,14 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>EP says hi on EP says hi</title>
+    <title>EPo on EPo</title>
     <link>https://epogrebnyak.github.io/</link>
-    <description>Recent content in EP says hi on EP says hi</description>
+    <description>Recent content in EPo on EPo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Evgeniy Pogrebnyak</copyright>
-    <lastBuildDate>Fri, 15 Mar 2019 10:57:57 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 17 Mar 2019 20:36:53 +0300</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>This</title>
+      <link>https://epogrebnyak.github.io/this/</link>
+      <pubDate>Sun, 17 Mar 2019 20:36:53 +0300</pubDate>
+      
+      <guid>https://epogrebnyak.github.io/this/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Setting Up Academic Theme</title>

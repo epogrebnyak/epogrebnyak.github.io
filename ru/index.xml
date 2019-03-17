@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>EP says hi on EP says hi</title>
+    <title>EPo on EPo</title>
     <link>https://epogrebnyak.github.io/ru/</link>
-    <description>Recent content in EP says hi on EP says hi</description>
+    <description>Recent content in EPo on EPo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <copyright>&amp;copy; Evgeniy Pogrebnyak</copyright>
@@ -182,7 +182,7 @@ def roots(a, b, c):
 &lt;p&gt;Пункты выше описывают минимальную версию языка программирования. За бортом остаются:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;различия между &lt;a href=&#34;https://python-3-patterns-idioms-test.readthedocs.io/en/latest/PythonForProgrammers.html#scripting-vs-programming&#34; target=&#34;_blank&#34;&gt;скриптам&lt;/a&gt;, модулями, пакетами&lt;/li&gt;
+&lt;li&gt;различия между &lt;a href=&#34;https://python-3-patterns-idioms-test.readthedocs.io/en/latest/PythonForProgrammers.html#scripting-vs-programming&#34; target=&#34;_blank&#34;&gt;скриптами&lt;/a&gt;, модулями, пакетами&lt;/li&gt;
 &lt;li&gt;дебаггер, логирование&lt;/li&gt;
 &lt;li&gt;генераторы, итераторы, распаковка (list comprehension)&lt;/li&gt;
 &lt;li&gt;ввод-вывод&lt;/li&gt;
@@ -235,12 +235,12 @@ def roots(a, b, c):
 &lt;li&gt;Аннотирование:&lt;br /&gt;
 
 &lt;ul&gt;
-&lt;li&gt;docstrings и &lt;code&gt;PEP8&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;PEP 257&lt;/code&gt;, docstrings&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;autopep8&lt;/code&gt;, &lt;code&gt;black&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;sphinx&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://gist.github.com/sloria/7001839&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Идиоматический&amp;rdquo; питон&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Регулярные выражения и форматы.
+&lt;li&gt;&lt;code&gt;PEP8&lt;/code&gt;, &lt;a href=&#34;https://gist.github.com/sloria/7001839&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;идиоматический&amp;rdquo; питон&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Регулярные выражения и форматы:
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://regex101.com&#34; target=&#34;_blank&#34;&gt;regex101.com&lt;/a&gt;&lt;/li&gt;
@@ -270,7 +270,7 @@ def roots(a, b, c):
 &lt;li&gt;&lt;code&gt;assert&lt;/code&gt;,&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;unittest&lt;/code&gt;, &lt;code&gt;pytest&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;dependency injection&lt;/li&gt;
-&lt;li&gt;continious inegration&lt;/li&gt;
+&lt;li&gt;continious integration (CI)&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;li&gt;Объектно-ориентированное программирование (ООП):
 
@@ -361,7 +361,7 @@ def roots(a, b, c):
 &lt;p&gt;&amp;ldquo;Этот datacamp&amp;hellip; Он по-моему ничему вообще не учит.&amp;rdquo; От знакомого, 2019.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&#34;куда-за-мотивацией&#34;&gt;Куда за мотивацией?&lt;/h2&gt;
+&lt;h2 id=&#34;откуда-за-мотивация&#34;&gt;Откуда за мотивация?&lt;/h2&gt;
 
 &lt;h4 id=&#34;github&#34;&gt;Github&lt;/h4&gt;
 
