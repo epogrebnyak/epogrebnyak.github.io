@@ -433,7 +433,7 @@ def roots(a, b, c):
 &lt;h4 id=&#34;stack-overflow&#34;&gt;Stack Overflow&lt;/h4&gt;
 
 &lt;p&gt;Топ вопросов по голосам пользователей в &lt;a href=&#34;https://stackoverflow.com/questions/tagged/python?sort=votes&#34; target=&#34;_blank&#34;&gt;Stack Overflow&lt;/a&gt; дает представление о
-наименее понятных и востребованных сторонах языка. Лидер рейтинга - ключевое слово &lt;code&gt;yield&lt;/code&gt;.&lt;/p&gt;
+наименее понятных, но при этом востребованных сторонах языка. Лидер рейтинга - ключевое слово &lt;code&gt;yield&lt;/code&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;приложения&#34;&gt;Приложения&lt;/h2&gt;
 
