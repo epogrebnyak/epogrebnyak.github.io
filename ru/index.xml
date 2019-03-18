@@ -154,7 +154,7 @@ True
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt; from sys import version 
 &amp;gt;&amp;gt; print(version)
-3.6.0 |Anaconda 4.3.1 (64-bit)| (default, Dec 23 2016, 11:57:41) [MSC v.1900 64 bit (AMD64)]
+3.6.0 |Anaconda 4.3.1 (64-bit)| (default, Dec 23 2016, 11:57:41)
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4 id=&#34;функции-стандартная-библиотека&#34;&gt;Функции. Стандартная библиотека.&lt;/h4&gt;
@@ -181,12 +181,18 @@ def roots(a, b, c):
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;&amp;gt;&amp;gt; min(5, 7)
 5
+&amp;gt;&amp;gt; len(&#39;abc&#39;)
+3
+
+&amp;gt;&amp;gt; from datetime import datetime
+&amp;gt;&amp;gt; print(datetime.now())
+2019-03-16 19:14:41.536899
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;h4 id=&#34;условное-исполнение-if-else-цикл-for&#34;&gt;Условное исполнение &lt;code&gt;if-else&lt;/code&gt;. Цикл &lt;code&gt;for&lt;/code&gt;.&lt;/h4&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;Исполнение программы может куда-то перескаивать.&lt;/p&gt;
+&lt;p&gt;Исполнение программы может куда-то пересакивать.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;for x in [1,2,3,4]: 
@@ -301,11 +307,11 @@ def roots(a, b, c):
 &lt;tr&gt;&lt;td&gt;Объекты (OOП)&lt;/td&gt;
 &lt;td&gt;
 &lt;ul&gt;
-&lt;li&gt;&amp;ldquo;Everything is an object&amp;rdquo;,&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Everything is an object&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;id()&lt;/code&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;http://www.jesshamrick.com/2011/05/18/an-introduction-to-classes-and-inheritance-in-python/&#34; target=&#34;_blank&#34;&gt;cat vs dog&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;dir()&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://docs.python.org/3/library/abc.html&#34; target=&#34;_blank&#34;&gt;ABCs&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://docs.python.org/3/library/abc.html&#34; target=&#34;_blank&#34;&gt;ABCs&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/td&gt;&lt;/tr&gt;
 

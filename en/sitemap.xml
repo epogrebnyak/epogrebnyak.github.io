@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>https://epogrebnyak.github.io/post/2019-03-18-julia-language-intro/</loc>
+      <lastmod>2019-03-18T11:23:56+03:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://epogrebnyak.github.io/post/2019-03-15-setting-up-academic/</loc>
       <lastmod>2019-03-15T10:57:57+03:00</lastmod>
     </url>
@@ -59,7 +67,7 @@
       <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/" hreflang="ru"/>
     
       <loc>https://epogrebnyak.github.io/</loc>
-      <lastmod>2019-03-15T10:57:57+03:00</lastmod>
+      <lastmod>2019-03-18T11:23:56+03:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -71,7 +79,7 @@
       <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/post/" hreflang="ru"/>
     
       <loc>https://epogrebnyak.github.io/post/</loc>
-      <lastmod>2019-03-15T10:57:57+03:00</lastmod>
+      <lastmod>2019-03-18T11:23:56+03:00</lastmod>
     </url>
     
   
@@ -131,8 +139,35 @@
     
     <url>
     
+      <loc>https://epogrebnyak.github.io/tags/econometrics/</loc>
+      <lastmod>2019-03-18T11:23:56+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://epogrebnyak.github.io/tags/hugo/</loc>
       <lastmod>2019-03-15T10:57:57+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/tags/julia/</loc>
+      <lastmod>2019-03-18T11:23:56+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/tags/programming/</loc>
+      <lastmod>2019-03-18T11:23:56+03:00</lastmod>
       <priority>0</priority>
     </url>
     

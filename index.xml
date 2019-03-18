@@ -7,8 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Evgeniy Pogrebnyak</copyright>
-    <lastBuildDate>Fri, 15 Mar 2019 10:57:57 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 18 Mar 2019 11:23:56 +0300</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Julia Programming Language Introduction</title>
+      <link>https://epogrebnyak.github.io/post/2019-03-18-julia-language-intro/</link>
+      <pubDate>Mon, 18 Mar 2019 11:23:56 +0300</pubDate>
+      
+      <guid>https://epogrebnyak.github.io/post/2019-03-18-julia-language-intro/</guid>
+      <description>&lt;p&gt;On DEV.to &lt;a href=&#34;https://dev.to/epogrebnyak/julialang-and-surprises---what-im-learning-with-a-new-programming-language--21df&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Julia, surprise me!&amp;rdquo;&lt;/a&gt; maps my learning of the Julia programming language as a series of pleasant and
+less satisfying surprises.&lt;/p&gt;
+
+&lt;p&gt;Since then my biggest roadblock to Julia was the &lt;a href=&#34;https://discourse.julialang.org/t/mac-resolving-package-versions-takes-a-long-time/16905/3?u=epogrebnyak&#34; target=&#34;_blank&#34;&gt;recompilation time of the dependencies&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Not much fun seeing your code execute in milliseconds, if you have to wait a minute for a dependency to &amp;lsquo;precompile&amp;rsquo;. Repeating that in cylces each time you run a test is not good.&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;julia&amp;gt; @time using LessOLS
+[ Info: Precompiling LessOLS [3e4c6e70-f926-11e8-0fa5-39915c5a2b72]
+ 57.375232 seconds (2.92 M allocations: 159.585 MiB, 0.20% gc time)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The issue is &lt;a href=&#34;https://github.com/JuliaLang/julia/issues/28425&#34; target=&#34;_blank&#34;&gt;addressed by the Julia community&lt;/a&gt;,
+and may possibly be fixed by &lt;a href=&#34;https://discourse.julialang.org/t/mac-resolving-package-versions-takes-a-long-time/16905/12?u=epogrebnyak&#34; target=&#34;_blank&#34;&gt;Revise.jl drop in&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;My primary project with Julia is &lt;a href=&#34;https://github.com/epogrebnyak/LessOLS.jl&#34; target=&#34;_blank&#34;&gt;LessOLS.jl&lt;/a&gt;, a from-scratch excercise in econometrics.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Setting Up Academic Theme</title>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on EPo</title>
-    <link>https://epogrebnyak.github.io/post/</link>
-    <description>Recent content in Posts on EPo</description>
+    <title>econometrics on EPo</title>
+    <link>https://epogrebnyak.github.io/tags/econometrics/</link>
+    <description>Recent content in econometrics on EPo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Evgeniy Pogrebnyak</copyright>
     <lastBuildDate>Mon, 18 Mar 2019 11:23:56 +0300</lastBuildDate>
     
-	<atom:link href="https://epogrebnyak.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://epogrebnyak.github.io/tags/econometrics/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,17 +21,6 @@
       <description>On DEV.to &amp;ldquo;Julia, surprise me!&amp;rdquo; maps my learning of the Julia programming language as a series of pleasant and less satisfying surprises.
 Since then my biggest roadblock to Julia was the recompilation time of the dependencies.
 Not much fun seeing your code execute in milliseconds, if you have to wait a minute for a dependency to &amp;lsquo;precompile&amp;rsquo;. Repeating that in cylces each time you run a test is not good.</description>
-    </item>
-    
-    <item>
-      <title>Setting Up Academic Theme</title>
-      <link>https://epogrebnyak.github.io/post/2019-03-15-setting-up-academic/</link>
-      <pubDate>Fri, 15 Mar 2019 10:57:57 +0300</pubDate>
-      
-      <guid>https://epogrebnyak.github.io/post/2019-03-15-setting-up-academic/</guid>
-      <description>Academic theme is great, well-thought in design and popular with users. Below is a track record of my site setup using Hugo and Academic.
-Precursor I&amp;rsquo;m migrating from a Jekyll-based CV theme to Academic. CV had a clean look and helped me to sort out my personal information, but it was not easily extensible. I did set it up once on Github Pages and rarely updated.
-As for site generators in general, Jekyll still looks a bit more popular than Hugo based on Github stars, but I like Hugo better, because of the following:</description>
     </item>
     
   </channel>
