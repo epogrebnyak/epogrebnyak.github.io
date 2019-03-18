@@ -7,8 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Evgeniy Pogrebnyak</copyright>
-    <lastBuildDate>Mon, 18 Mar 2019 11:23:56 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 18 Mar 2019 23:24:30 +0300</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Strategy2</title>
+      <link>https://epogrebnyak.github.io/publication/strategy2/</link>
+      <pubDate>Mon, 18 Mar 2019 23:24:30 +0300</pubDate>
+      
+      <guid>https://epogrebnyak.github.io/publication/strategy2/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Julia Programming Language Introduction</title>

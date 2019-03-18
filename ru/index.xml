@@ -7,8 +7,108 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <copyright>&amp;copy; Evgeniy Pogrebnyak</copyright>
-    <lastBuildDate>Fri, 15 Mar 2019 10:57:57 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 18 Mar 2019 23:24:30 +0300</lastBuildDate>
     <atom:link href="/ru/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Взгляд на стратегию</title>
+      <link>https://epogrebnyak.github.io/ru/publication/strategy/</link>
+      <pubDate>Mon, 18 Mar 2019 23:24:30 +0300</pubDate>
+      
+      <guid>https://epogrebnyak.github.io/ru/publication/strategy/</guid>
+      <description>
+
+&lt;p&gt;&lt;em&gt;Видеть клиента и изменения во внешней среде.&lt;/em&gt; Процесс выработки стратегии -
+это движение от внешних условий к изменениям во внутренней среде компании:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;внешняя среда, макроусловия&lt;/li&gt;
+&lt;li&gt;изменения в поведении, предпочтениях клиентов&lt;/li&gt;
+&lt;li&gt;продукт компании и его использование клиентом&lt;/li&gt;
+&lt;li&gt;ресурсы, оргстурктура и бизнес-процессы компании&lt;/li&gt;
+&lt;li&gt;план действий и измерение его результатов&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;em&gt;Прогнозные сценарии&lt;/em&gt; - оцифровка изменений вне и внутри компании:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;позволяют быстрее договориться с акционерами/стейкхолдерами&lt;/li&gt;
+&lt;li&gt;сблизить позиции подразделений внутри компании&lt;/li&gt;
+&lt;li&gt;оценить влияние факторов на результаты (хорошие внешние условия или активные действия компании)&lt;/li&gt;
+&lt;li&gt;понять масштаб предлагаемых изменений (предалгается business as usual или рост выше рынка)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;проблемы&#34;&gt;Проблемы&lt;/h4&gt;
+
+&lt;ol&gt;
+&lt;li&gt;расчеты под стратегию делаются разово, на уникальном
+наборе данных, который затем не поддерживается внутри компании
+(&amp;ldquo;консультант ушел&amp;rdquo;)&lt;/li&gt;
+&lt;li&gt;срезы данных, которыми владеют подразделения, отличаются друг от друга
+и не расшариваются между ними&lt;/li&gt;
+&lt;li&gt;годовой бюджет - плохая основа для 3-5 летних прогнозных сценариев
+(большая детализация + привязка к текущей ситуации)&lt;/li&gt;
+&lt;li&gt;сложно понять эффект разнонаправленных изменений (&amp;ldquo;а что если&amp;rdquo; * n)&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;мы самые хорошие, единственные в своем роде&amp;rdquo; (компания не хочет видить
+конкурентов, давления рынка)&lt;/li&gt;
+&lt;li&gt;стратегия не содержит альтернатив дейтвий и выбора между ними; один, чаще всего хороший
+сценарий&lt;/li&gt;
+&lt;li&gt;компания сама предлагает KPI акционерам и сама по ним отчитывается
+(ручные расчеты, сложные методики, дальние сроки)&lt;/li&gt;
+&lt;li&gt;подготовка стратегии - разовое мероприятие, компания живет по другим правилам
+между принятием и отчетом по стратегии, отчитывается о выполнении формально
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;!--
+
+#### Подходы к решению
+
+- независимые becnhmark&#39;и эффективности/планов развития в сравнении с другими компаниями
+- обоснования параметров сценарных моделей (макро, отраслевой анализ, корпоративные бенчмарки)
+
+- разные уровни абстракции и детализации для обсуждения статаегии
+--&gt;
+
+&lt;h4 id=&#34;deliverables&#34;&gt;Deliverables&lt;/h4&gt;
+
+&lt;p&gt;Hard:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&amp;ldquo;тонкие&amp;rdquo;/трассируемые сценарные модели и количественные сценарии&lt;/li&gt;
+&lt;li&gt;план автоматизации расчета KPI (по первичным данным) и его внедрение&lt;/li&gt;
+&lt;li&gt;предложения по изменению оргструктуры и бизнес-процессов компании
+в рамках выбранной стратегии&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Soft:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;мероприятия по подготовке и обсуждению стратегии внутри компании
+(семинары, стартегические сессии)&lt;/li&gt;
+&lt;li&gt;картирование проблем развития компании и способов их решения
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;результат&#34;&gt;Результат&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;уровень вовелченности сотрудников в реализацию стратегии&lt;/li&gt;
+&lt;li&gt;полнота и обоснованность стратегии&lt;/li&gt;
+&lt;li&gt;предсказуемое обсуждение и утверждение стратегии акционерами&lt;/li&gt;
+&lt;li&gt;ясность хода исполнения и отклонений в реализации стратегии&lt;/li&gt;
+&lt;li&gt;гибкость компании в реагировании на отклонения&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;иллюстрации&#34;&gt;Иллюстрации&lt;/h3&gt;
+
+&lt;p&gt;Е.Погребняк, С.Барабанов:
+&lt;a href=&#34;https://speakerdeck.com/epogrebnyak/strategy-steps-in-russian&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://speakerd.s3.amazonaws.com/presentations/09c851b79dc945479ca27bb102b351c4/preview_slide_0.jpg?482936&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;@erikstarck:
+&lt;a href=&#34;https://twitter.com/erikstarck/status/1107680175087632386?s=20&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://pbs.twimg.com/media/D19FLjgWsAAjal7?format=png&amp;amp;name=4096x4096&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Начать (и успешно продолжить) программировать на Python</title>
@@ -319,9 +419,9 @@ def roots(a, b, c):
 &lt;tr&gt;&lt;td&gt;
 Алгоритмы и паттерны
 &lt;/td&gt;&lt;td&gt;&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/TheAlgorithms/Python&#34; target=&#34;_blank&#34;&gt;алгоритмы&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;O-notation&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/TheAlgorithms/Python&#34; target=&#34;_blank&#34;&gt;алгоритмы&lt;/a&gt;, O-notation&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/faif/python-patterns&#34; target=&#34;_blank&#34;&gt;design patterns&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://people.mpi-inf.mpg.de/~jblanche/api-design.pdf&#34; target=&#34;_blank&#34;&gt;дизайн API&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/td&gt;&lt;/tr&gt;
 
@@ -341,7 +441,7 @@ def roots(a, b, c):
 &lt;/td&gt;
 &lt;td&gt;
 &lt;ul&gt;
-&lt;li&gt;командная строка&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/epogrebnyak/the-art-of-command-line&#34; target=&#34;_blank&#34;&gt;командная строка&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;горячие клавиши редактора&lt;/li&gt;
 &lt;li&gt;git&lt;/li&gt;
 &lt;li&gt;markdown&lt;/li&gt;

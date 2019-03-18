@@ -4,6 +4,14 @@
     
     <url>
     
+      <loc>https://epogrebnyak.github.io/ru/publication/strategy/</loc>
+      <lastmod>2019-03-18T23:24:30+03:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://epogrebnyak.github.io/ru/post/2019-03-16-start-python/</loc>
       <lastmod>2019-03-15T10:57:57+03:00</lastmod>
     </url>
@@ -59,7 +67,7 @@
       <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/" hreflang="en"/>
     
       <loc>https://epogrebnyak.github.io/ru/</loc>
-      <lastmod>2019-03-15T10:57:57+03:00</lastmod>
+      <lastmod>2019-03-18T23:24:30+03:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -93,6 +101,7 @@
       <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/publication/" hreflang="en"/>
     
       <loc>https://epogrebnyak.github.io/ru/publication/</loc>
+      <lastmod>2019-03-18T23:24:30+03:00</lastmod>
     </url>
     
   
