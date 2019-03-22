@@ -1,7 +1,5 @@
-
-
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en-us">
 <head>
 
   <meta charset="utf-8">
@@ -23,17 +21,17 @@
   
   
 
-  <meta name="author" content="Евгений Погребняк">
+  <meta name="author" content="Evgeniy Pogrebnyak">
 
   
   
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Curated Haskell classes by Yuras Shumovich.">
 
   
-  <link rel="alternate" hreflang="ru" href="https://epogrebnyak.github.io/ru/tags/shiny/">
+  <link rel="alternate" hreflang="en-us" href="https://epogrebnyak.github.io/project/external-project/">
 
   
 
@@ -92,7 +90,7 @@
   <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono">
   
 
-  <link rel="stylesheet" href="/ru/styles.css">
+  <link rel="stylesheet" href="/styles.css">
   
 
   
@@ -100,15 +98,15 @@
   
 
   
-  <link rel="alternate" href="https://epogrebnyak.github.io/ru/tags/shiny/index.xml" type="application/rss+xml" title="EPo">
-  <link rel="feed" href="https://epogrebnyak.github.io/ru/tags/shiny/index.xml" type="application/rss+xml" title="EPo">
+  <link rel="alternate" href="https://epogrebnyak.github.io/index.xml" type="application/rss+xml" title="EPo">
+  <link rel="feed" href="https://epogrebnyak.github.io/index.xml" type="application/rss+xml" title="EPo">
   
 
   <link rel="manifest" href="/site.webmanifest">
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://epogrebnyak.github.io/ru/tags/shiny/">
+  <link rel="canonical" href="https://epogrebnyak.github.io/project/external-project/">
 
   
   
@@ -122,19 +120,21 @@
   <meta property="twitter:creator" content="@PogrebnyakE">
   
   <meta property="og:site_name" content="EPo">
-  <meta property="og:url" content="https://epogrebnyak.github.io/ru/tags/shiny/">
-  <meta property="og:title" content="shiny | EPo">
-  <meta property="og:description" content=""><meta property="og:image" content="https://epogrebnyak.github.io/img/icon.png">
-  <meta property="og:locale" content="ru">
+  <meta property="og:url" content="https://epogrebnyak.github.io/project/external-project/">
+  <meta property="og:title" content="Introduction to Haskell | EPo">
+  <meta property="og:description" content="Curated Haskell classes by Yuras Shumovich."><meta property="og:image" content="https://epogrebnyak.github.io/project/external-project/featured.png">
+  <meta property="og:locale" content="en-us">
   
-  <meta property="og:updated_time" content="2019-03-22T04:47:54&#43;03:00">
+  <meta property="article:published_time" content="2018-10-03T00:00:00&#43;03:00">
+  
+  <meta property="article:modified_time" content="2018-10-03T00:00:00&#43;03:00">
+  
+
   
 
   
 
-  
-
-  <title>shiny | EPo</title>
+  <title>Introduction to Haskell | EPo</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
@@ -174,10 +174,10 @@
   <div class="container">
 
     
-      <a class="navbar-brand" href="/ru/"><img src="/img/icon.png" alt="EPo"></a>
+      <a class="navbar-brand" href="/"><img src="/img/icon.png" alt="EPo"></a>
       
       <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Переключить навигацию">
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
         <span><i class="fas fa-bars"></i></span>
       </button>
       
@@ -199,28 +199,9 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/ru/#about">
+          <a class="nav-link" href="/#about">
             
-            <span>Главная</span>
-            
-          </a>
-        </li>
-
-        
-        
-
-        
-
-        
-        
-        
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link" href="/ru/#posts">
-            
-            <span>Блог</span>
+            <span>Home</span>
             
           </a>
         </li>
@@ -237,9 +218,28 @@
         
 
         <li class="nav-item">
-          <a class="nav-link" href="/ru/#contact">
+          <a class="nav-link" href="/#posts">
             
-            <span>Контакты</span>
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">
+            
+            <span>Contact</span>
             
           </a>
         </li>
@@ -271,56 +271,368 @@
 </nav>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
+<article class="article article-project" itemscope itemtype="http://schema.org/Article">
 
   
 
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="article-header d-xl-none">
+  <div class="featured-image" style="background-image: url('/project/external-project/featured_hu718e0f3762208eed3ec2d1b83878aff7_53416_800x0_resize_lanczos_2.png');"></div>
+  <span class="article-header-caption">Snapshot of haskell-intro repository</span>
+</div>
+
+
+<div class="container-fluid split-header d-none d-xl-block">
+  <div class="row">
+    <div class="col-6">
+      <div class="split-header-content">
+        <h1 itemprop="name">Introduction to Haskell</h1>
+
+        
+
+        
+
+
+
+<meta content="2018-10-03 00:00:00 &#43;0300 MSK" itemprop="datePublished">
+<meta content="2018-10-03 00:00:00 &#43;0300 MSK" itemprop="dateModified">
+
+<div class="article-metadata">
+
   
   
+
   
+  <span class="article-date">
     
+    
+      
+    
+    <time>Oct 3, 2018</time>
+  </span>
   
-<div class="universal-wrapper pt-3">
-  <h1 itemprop="name">shiny</h1>
 
   
 
   
+
+  
+  
+
+  
+
+  
+
+</div>
+
+
+        
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  <a class="btn btn-outline-primary my-1" href="https://github.com/epogrebnyak/haskell-intro" target="_blank" rel="noopener">Go to Project Site</a>
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </div>
 
 
 
-<div class="universal-wrapper">
-  
+        
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Introduction%20to%20Haskell&amp;url=https%3a%2f%2fepogrebnyak.github.io%2fproject%2fexternal-project%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fepogrebnyak.github.io%2fproject%2fexternal-project%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fepogrebnyak.github.io%2fproject%2fexternal-project%2f&amp;title=Introduction%20to%20Haskell"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fepogrebnyak.github.io%2fproject%2fexternal-project%2f&amp;title=Introduction%20to%20Haskell"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Introduction%20to%20Haskell&amp;body=https%3a%2f%2fepogrebnyak.github.io%2fproject%2fexternal-project%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
 
-  
-  
-  <div>
-    <h2><a href="/ru/post/2019-03-22-what-if-not-tableau/">Дэшборд, но не Tableau?</a></h2>
-    <div class="article-style">
-      
-      Хороший дэшборд, как известно, и на радость разработчикам (быстро показали, что хотели) и пользователям (не надо отчеты запрашивать, все и так выкладывается). На практике чуть сложнее (доступность данных, разграничение доступа, что дальше делать, глядя на красивые данные), но сами средства разработки лучше знать, чем не знать.
-Ниже кратко о вариантах дэшбордов помимо хорошо известных коммерческих систем (Tableaux1, Power BI) по мотивам этого опроса в Твиттере:
-Startup data science folks: how do you distribute or host reports and dashboards?
-      
+
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="split-header-image">
+        <img src="/project/external-project/featured_hu718e0f3762208eed3ec2d1b83878aff7_53416_680x500_fill_q90_lanczos_smart1_2.png" itemprop="image" alt="">
+        <span class="article-header-caption">Snapshot of haskell-intro repository</span>
+      </div>
     </div>
   </div>
+</div>
+
+<div class="article-container d-xl-none">
+  <h1 itemprop="name">Introduction to Haskell</h1>
+
   
+
+  
+
+
+
+<meta content="2018-10-03 00:00:00 &#43;0300 MSK" itemprop="datePublished">
+<meta content="2018-10-03 00:00:00 &#43;0300 MSK" itemprop="dateModified">
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    <time>Oct 3, 2018</time>
+  </span>
+  
+
+  
+
+  
+
+  
+  
+
+  
+
+  
+    
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Introduction%20to%20Haskell&amp;url=https%3a%2f%2fepogrebnyak.github.io%2fproject%2fexternal-project%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fepogrebnyak.github.io%2fproject%2fexternal-project%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fepogrebnyak.github.io%2fproject%2fexternal-project%2f&amp;title=Introduction%20to%20Haskell"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fepogrebnyak.github.io%2fproject%2fexternal-project%2f&amp;title=Introduction%20to%20Haskell"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Introduction%20to%20Haskell&amp;body=https%3a%2f%2fepogrebnyak.github.io%2fproject%2fexternal-project%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
 
   
 
 </div>
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+<div class="btn-links mb-3">
+  
+  <a class="btn btn-outline-primary my-1" href="https://github.com/epogrebnyak/haskell-intro" target="_blank" rel="noopener">Go to Project Site</a>
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+    </div>
+
+    
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tags/programming/">programming</a>
+  
+  <a class="badge badge-light" href="/tags/haskell/">haskell</a>
+  
+</div>
+
+
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+    
+    
+    
+
+  </div>
+</article>
+
+
+
 <div class="container">
   <footer class="site-footer">
   
@@ -411,17 +723,17 @@ Startup data science folks: how do you distribute or host reports and dashboards
     
     
     <script>
-      const search_index_filename = "/ru/index.json";
+      const search_index_filename = "/index.json";
       const i18n = {
         'placeholder': "Search...",
         'results': "results found",
         'no_results': "No results found"
       };
       const content_type = {
-        'post': "Статьи",
+        'post': "Posts",
         'project': "Projects",
-        'publication' : "Публикации",
-        'talk' : "Выступления"
+        'publication' : "Publications",
+        'talk' : "Talks"
         };
     </script>
     
@@ -469,6 +781,4 @@ Startup data science folks: how do you distribute or host reports and dashboards
 
   </body>
 </html>
-
-
 

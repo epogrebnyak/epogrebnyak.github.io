@@ -25,8 +25,7 @@
       <pubDate>Mon, 18 Mar 2019 11:23:56 +0300</pubDate>
       
       <guid>https://epogrebnyak.github.io/post/2019-03-18-julia-language-intro/</guid>
-      <description>&lt;p&gt;On DEV.to &lt;a href=&#34;https://dev.to/epogrebnyak/julialang-and-surprises---what-im-learning-with-a-new-programming-language--21df&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Julia, surprise me!&amp;rdquo;&lt;/a&gt; maps my learning of the Julia programming language as a series of pleasant and
-less satisfying surprises.&lt;/p&gt;
+      <description>&lt;p&gt;DEV.to article &lt;a href=&#34;https://dev.to/epogrebnyak/julialang-and-surprises---what-im-learning-with-a-new-programming-language--21df&#34; target=&#34;_blank&#34;&gt;&amp;ldquo;Julia, surprise me!&amp;rdquo;&lt;/a&gt; maps my learning of the Julia programming language as a series of pleasant and less satisfying surprises.&lt;/p&gt;
 
 &lt;p&gt;Since then my biggest roadblock to Julia was the &lt;a href=&#34;https://discourse.julialang.org/t/mac-resolving-package-versions-takes-a-long-time/16905/3?u=epogrebnyak&#34; target=&#34;_blank&#34;&gt;recompilation time of the dependencies&lt;/a&gt;.&lt;/p&gt;
 
@@ -112,6 +111,15 @@ using Ruby environment for Jekyll)&lt;/li&gt;
 
 &lt;p&gt;I &lt;a href=&#34;https://sourcethemes.com/academic/#support&#34; target=&#34;_blank&#34;&gt;paid up for a coffee&lt;/a&gt; to Academic on paypal.  A small gratitude to an open source project.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Introduction to Haskell</title>
+      <link>https://epogrebnyak.github.io/project/external-project/</link>
+      <pubDate>Wed, 03 Oct 2018 00:00:00 +0300</pubDate>
+      
+      <guid>https://epogrebnyak.github.io/project/external-project/</guid>
+      <description></description>
     </item>
     
   </channel>

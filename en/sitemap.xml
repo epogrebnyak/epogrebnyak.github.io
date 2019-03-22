@@ -28,6 +28,14 @@
     
     <url>
     
+      <loc>https://epogrebnyak.github.io/project/external-project/</loc>
+      <lastmod>2018-10-03T00:00:00+03:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/author/admin/" hreflang="en"/>
       <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/author/admin/" hreflang="ru"/>
     
@@ -94,6 +102,15 @@
     
     <url>
     
+      <loc>https://epogrebnyak.github.io/project/</loc>
+      <lastmod>2018-10-03T00:00:00+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/publication_types/" hreflang="en"/>
       <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/publication_types/" hreflang="ru"/>
     
@@ -150,6 +167,15 @@
     
       <loc>https://epogrebnyak.github.io/tags/econometrics/</loc>
       <lastmod>2019-03-18T11:23:56+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/tags/haskell/</loc>
+      <lastmod>2018-10-03T00:00:00+03:00</lastmod>
       <priority>0</priority>
     </url>
     

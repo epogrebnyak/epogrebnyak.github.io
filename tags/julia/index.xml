@@ -18,7 +18,7 @@
       <pubDate>Mon, 18 Mar 2019 11:23:56 +0300</pubDate>
       
       <guid>https://epogrebnyak.github.io/post/2019-03-18-julia-language-intro/</guid>
-      <description>On DEV.to &amp;ldquo;Julia, surprise me!&amp;rdquo; maps my learning of the Julia programming language as a series of pleasant and less satisfying surprises.
+      <description>DEV.to article &amp;ldquo;Julia, surprise me!&amp;rdquo; maps my learning of the Julia programming language as a series of pleasant and less satisfying surprises.
 Since then my biggest roadblock to Julia was the recompilation time of the dependencies.
 Not much fun seeing your code execute in milliseconds, if you have to wait a minute for a dependency to &amp;lsquo;precompile&amp;rsquo;. Repeating that in cylces each time you run a test is not good.</description>
     </item>
