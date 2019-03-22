@@ -54,9 +54,9 @@
 &lt;p&gt;Поднять свой сервер для работы с данными (все бесплатные):&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/apache/incubator-superset&#34; target=&#34;_blank&#34;&gt;superset&lt;/a&gt; (самый известный)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/apache/incubator-superset&#34; target=&#34;_blank&#34;&gt;superset&lt;/a&gt; (проект Apache Incubator)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.metabase.com&#34; target=&#34;_blank&#34;&gt;metabase&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;анализаторы логов (&lt;code&gt;Grafana&lt;/code&gt;, &lt;code&gt;Kibana&lt;/code&gt;)
+&lt;li&gt;анализаторы логов (&lt;code&gt;Grafana&lt;/code&gt;, &lt;code&gt;Kibana&lt;/code&gt; и т.д.)
 &lt;br /&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
