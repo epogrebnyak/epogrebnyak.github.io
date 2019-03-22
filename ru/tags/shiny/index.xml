@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on EPo</title>
-    <link>https://epogrebnyak.github.io/ru/post/</link>
-    <description>Recent content in Posts on EPo</description>
+    <title>shiny on EPo</title>
+    <link>https://epogrebnyak.github.io/ru/tags/shiny/</link>
+    <description>Recent content in shiny on EPo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <copyright>&amp;copy; Evgeniy Pogrebnyak</copyright>
     <lastBuildDate>Fri, 22 Mar 2019 04:47:54 +0300</lastBuildDate>
     
-	<atom:link href="https://epogrebnyak.github.io/ru/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://epogrebnyak.github.io/ru/tags/shiny/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,17 +21,6 @@
       <description>Хороший дэшборд, как известно, и на радость разработчикам (быстро показали что хотели) и пользователям (не надо отчеты запрашивать, все и так выкладывается). На практике чуть сложнее (доступность данных, разграничение доступа, что дальше делать, глядя на красивые данные), но сами средства разработки лучше знать, чем не знать.
 Ниже кратко о вариантах дэшбордов помимо хорошо известных коммерческих систем (Tableaux1, Power BI) по мотивам этого опроса в Твиттере:
 Startup data science folks: how do you distribute or host reports and dashboards?</description>
-    </item>
-    
-    <item>
-      <title>Начать (и успешно продолжить) программировать на Python</title>
-      <link>https://epogrebnyak.github.io/ru/post/2019-03-16-start-python/</link>
-      <pubDate>Fri, 15 Mar 2019 10:57:57 +0300</pubDate>
-      
-      <guid>https://epogrebnyak.github.io/ru/post/2019-03-16-start-python/</guid>
-      <description>C чего начать? Количество курсов по Python немыслимо, на фоне этого разнообразия по сбалансированности содержания мне нравятся следующие три1.
-Выбор номер один - learn-python О.Твердохлеба2. Лучше всего подойдет тем, кто когда-то начинал программировать (например, Basic или Pascal) и хочет восстановить навыки.
-Хорошие вводные есть в лекциях QuantEcon и в лекциях SciPy. Целиком наборы лекций посвящены более сложным темам, это положительно сказывается на содержании начальных глав - ничего не пропускают, но и долго не топчутся.</description>
     </item>
     
   </channel>

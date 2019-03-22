@@ -7,8 +7,83 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <copyright>&amp;copy; Evgeniy Pogrebnyak</copyright>
-    <lastBuildDate>Mon, 18 Mar 2019 23:24:30 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 22 Mar 2019 04:47:54 +0300</lastBuildDate>
     <atom:link href="/ru/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Дэшборд, но не Tableau?</title>
+      <link>https://epogrebnyak.github.io/ru/post/2019-03-22-what-if-not-tableau/</link>
+      <pubDate>Fri, 22 Mar 2019 04:47:54 +0300</pubDate>
+      
+      <guid>https://epogrebnyak.github.io/ru/post/2019-03-22-what-if-not-tableau/</guid>
+      <description>
+
+&lt;p&gt;Хороший дэшборд, как известно, и на радость разработчикам (быстро показали что хотели) и пользователям (не надо отчеты запрашивать, все и так выкладывается). На
+практике чуть сложнее (доступность данных, разграничение доступа, что дальше делать, глядя на красивые данные), но сами средства разработки лучше знать, чем не знать.&lt;/p&gt;
+
+&lt;p&gt;Ниже кратко о вариантах дэшбордов помимо хорошо известных коммерческих систем (Tableaux&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;, Power BI) по мотивам &lt;a href=&#34;https://twitter.com/beeonaposy/status/1108817167015993344&#34; target=&#34;_blank&#34;&gt;этого опроса в Твиттере&lt;/a&gt;:&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Startup data science folks: how do you distribute or host reports and dashboards? 📈&lt;/p&gt;&amp;mdash; Caitlin Hudon👩🏼‍💻 (@beeonaposy) &lt;a href=&#34;https://twitter.com/beeonaposy/status/1108817167015993344?ref_src=twsrc%5Etfw&#34;&gt;March 21, 2019&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+
+&lt;p&gt;Наиболее известные базовые способы:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;ноутбуки &lt;code&gt;jupyter&lt;/code&gt;&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;shiny&lt;/code&gt; (здесь средства &lt;code&gt;R&lt;/code&gt; круче, чем аналоги на питоне)&lt;/li&gt;
+&lt;li&gt;там, где &lt;code&gt;shiny&lt;/code&gt;, там и &lt;code&gt;plotly&lt;/code&gt; и &lt;code&gt;bokeh&lt;/code&gt; (уже питоновские)&lt;/li&gt;
+&lt;li&gt;в приницпе, под дэшборд можно приспособить любую систему
+публикации &lt;code&gt;markdown&lt;/code&gt;, &lt;code&gt;bookdown&lt;/code&gt;, &lt;code&gt;asciidoc&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--
+--&gt;
+
+&lt;p&gt;Менее известные:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://rmarkdown.rstudio.com/flexdashboard/&#34; target=&#34;_blank&#34;&gt;flexdashboard&lt;/a&gt; развивает способности &lt;code&gt;shiny&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://alpha.quiltdata.com/b/quilt-example/tree/robnewman/us_county_smoking_vs_poverty&#34; target=&#34;_blank&#34;&gt;Quilt&lt;/a&gt;
+красиво показывает содержание бакета AWS S3, рендерит ноутбуки и прочее (но сам в альфа версии)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ankane/blazer&#34; target=&#34;_blank&#34;&gt;blazer&lt;/a&gt; быстро рисует из запросов SQL в браузере&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Поднять свой сервер для работы с данными (все бесплатные):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/apache/incubator-superset&#34; target=&#34;_blank&#34;&gt;superset&lt;/a&gt; (самый известный)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.metabase.com&#34; target=&#34;_blank&#34;&gt;metabase&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;анализаторы логов (&lt;code&gt;Grafana&lt;/code&gt;, &lt;code&gt;Kibana&lt;/code&gt;)
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Из личного опыта, считайте небольшой рекламой:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://visyond.com&#34; target=&#34;_blank&#34;&gt;visyond&lt;/a&gt; - также справляется с BI, но помимо этого хорошо подходит для масштабной стандартизации электронных таблиц (когда их в организации обрабатывается много и внутри Excel причесывать долго и сложно, &amp;ldquo;куда смотерть, если google sheets не хватает&amp;rdquo;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&#34;дополнения&#34;&gt;Дополнения&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;чудесный мир JavaScript дэшбордов, но в это мире непонятно, какой проект развивается, какой уже нет. Оживленным выглядит &lt;a href=&#34;https://github.com/PanJiaChen/vue-element-admin&#34; target=&#34;_blank&#34;&gt;vue-element-admin&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;низкоуровневая библиотека? &lt;code&gt;D3.js&lt;/code&gt;! надстройка? &lt;code&gt;Vega-lite&lt;/code&gt;. А чтобы пользоваться?
+&lt;a href=&#34;https://altair-viz.github.io/&#34; target=&#34;_blank&#34;&gt;Altair&lt;/a&gt;! (снова питон)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:2&#34;&gt;Расценки на Tableaux &lt;a href=&#34;https://twitter.com/mim_djo/status/1108839870753955840&#34; target=&#34;_blank&#34;&gt;тут&lt;/a&gt;, можно смотреть также бесплатный &lt;a href=&#34;https://datastudio.google.com/navigation/reporting&#34; target=&#34;_blank&#34;&gt;datastudio.google&lt;/a&gt;.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:2&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;В презентации будет маячить код, но &lt;a href=&#34;https://stackoverflow.com/questions/27934885/how-to-hide-code-from-cells-in-ipython-notebook-visualized-with-nbviewer/28073228#28073228&#34; target=&#34;_blank&#34;&gt;люди придумали как его выкручивать из ноутбука&lt;/a&gt;)
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:3&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Взгляд на стратегию</title>
