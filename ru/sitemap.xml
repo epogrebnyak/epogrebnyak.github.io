@@ -28,6 +28,22 @@
     
     <url>
     
+      <loc>https://epogrebnyak.github.io/ru/project/accounting/</loc>
+      <lastmod>2018-10-03T00:00:00+03:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/ru/project/ru-corporate/</loc>
+      <lastmod>2018-01-23T00:00:00+03:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/author/admin/" hreflang="ru"/>
       <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/author/admin/" hreflang="en"/>
     
@@ -94,6 +110,18 @@
     
     <url>
     
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/project/" hreflang="ru"/>
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/project/" hreflang="en"/>
+    
+      <loc>https://epogrebnyak.github.io/ru/project/</loc>
+      <lastmod>2018-10-03T00:00:00+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/publication_types/" hreflang="ru"/>
       <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/publication_types/" hreflang="en"/>
     
@@ -137,6 +165,15 @@
     
     <url>
     
+      <loc>https://epogrebnyak.github.io/ru/tags/accounting/</loc>
+      <lastmod>2018-10-03T00:00:00+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/authors/admin/" hreflang="ru"/>
       <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/authors/admin/" hreflang="en"/>
     
@@ -150,6 +187,24 @@
     
       <loc>https://epogrebnyak.github.io/ru/tags/clean-code/</loc>
       <lastmod>2019-03-15T10:57:57+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/ru/tags/disclosure/</loc>
+      <lastmod>2018-01-23T00:00:00+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/ru/tags/financial-statements/</loc>
+      <lastmod>2018-01-23T00:00:00+03:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -177,6 +232,15 @@
     
       <loc>https://epogrebnyak.github.io/ru/tags/python/</loc>
       <lastmod>2019-03-15T10:57:57+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/ru/tags/reporting/</loc>
+      <lastmod>2018-01-23T00:00:00+03:00</lastmod>
       <priority>0</priority>
     </url>
     

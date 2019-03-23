@@ -700,5 +700,23 @@ def roots(a, b, c):
 </description>
     </item>
     
+    <item>
+      <title>Как понять бухучет?</title>
+      <link>https://epogrebnyak.github.io/ru/project/accounting/</link>
+      <pubDate>Wed, 03 Oct 2018 00:00:00 +0300</pubDate>
+      
+      <guid>https://epogrebnyak.github.io/ru/project/accounting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ru-corporate</title>
+      <link>https://epogrebnyak.github.io/ru/project/ru-corporate/</link>
+      <pubDate>Tue, 23 Jan 2018 00:00:00 +0300</pubDate>
+      
+      <guid>https://epogrebnyak.github.io/ru/project/ru-corporate/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>

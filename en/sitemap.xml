@@ -28,8 +28,16 @@
     
     <url>
     
-      <loc>https://epogrebnyak.github.io/project/external-project/</loc>
+      <loc>https://epogrebnyak.github.io/project/haskell/</loc>
       <lastmod>2018-10-03T00:00:00+03:00</lastmod>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/project/mini-kep/</loc>
+      <lastmod>2017-11-27T00:00:00+03:00</lastmod>
     </url>
     
   
@@ -101,6 +109,9 @@
   
     
     <url>
+    
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/project/" hreflang="en"/>
+      <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/project/" hreflang="ru"/>
     
       <loc>https://epogrebnyak.github.io/project/</loc>
       <lastmod>2018-10-03T00:00:00+03:00</lastmod>
@@ -201,6 +212,15 @@
     
     <url>
     
+      <loc>https://epogrebnyak.github.io/tags/macroeconomics/</loc>
+      <lastmod>2017-11-27T00:00:00+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
       <loc>https://epogrebnyak.github.io/tags/programming/</loc>
       <lastmod>2019-03-18T11:23:56+03:00</lastmod>
       <priority>0</priority>
@@ -212,6 +232,15 @@
     
       <loc>https://epogrebnyak.github.io/tags/setup/</loc>
       <lastmod>2019-03-15T10:57:57+03:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/tags/time-series/</loc>
+      <lastmod>2017-11-27T00:00:00+03:00</lastmod>
       <priority>0</priority>
     </url>
     

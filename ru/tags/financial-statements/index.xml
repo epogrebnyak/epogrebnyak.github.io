@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>financial statements on EPo</title>
+    <link>https://epogrebnyak.github.io/ru/tags/financial-statements/</link>
+    <description>Recent content in financial statements on EPo</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru</language>
+    <copyright>&amp;copy; Evgeniy Pogrebnyak</copyright>
+    <lastBuildDate>Tue, 23 Jan 2018 00:00:00 +0300</lastBuildDate>
+    
+	<atom:link href="https://epogrebnyak.github.io/ru/tags/financial-statements/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>ru-corporate</title>
+      <link>https://epogrebnyak.github.io/ru/project/ru-corporate/</link>
+      <pubDate>Tue, 23 Jan 2018 00:00:00 +0300</pubDate>
+      
+      <guid>https://epogrebnyak.github.io/ru/project/ru-corporate/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
