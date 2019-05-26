@@ -4,14 +4,6 @@
     
     <url>
     
-      <loc>https://epogrebnyak.github.io/publication/strategy2/</loc>
-      <lastmod>2019-03-18T23:24:30+03:00</lastmod>
-    </url>
-    
-  
-    
-    <url>
-    
       <loc>https://epogrebnyak.github.io/post/2019-03-18-julia-language-intro/</loc>
       <lastmod>2019-03-18T11:23:56+03:00</lastmod>
     </url>
@@ -91,7 +83,7 @@
       <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/" hreflang="ru"/>
     
       <loc>https://epogrebnyak.github.io/</loc>
-      <lastmod>2019-03-18T23:24:30+03:00</lastmod>
+      <lastmod>2019-03-18T11:23:56+03:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -137,7 +129,6 @@
       <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/publication/" hreflang="ru"/>
     
       <loc>https://epogrebnyak.github.io/publication/</loc>
-      <lastmod>2019-03-18T23:24:30+03:00</lastmod>
     </url>
     
   
@@ -148,6 +139,21 @@
       <xhtml:link rel="alternate" href="https://epogrebnyak.github.io/ru/talk/" hreflang="ru"/>
     
       <loc>https://epogrebnyak.github.io/talk/</loc>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/slides/</loc>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    <url>
+    
+      <loc>https://epogrebnyak.github.io/slides/tools/</loc>
     </url>
     
   

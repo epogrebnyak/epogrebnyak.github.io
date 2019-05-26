@@ -71,7 +71,7 @@
 &lt;ul&gt;
 &lt;li&gt;чудесный мир JavaScript дэшбордов, но в это мире непонятно, какой проект развивается, какой уже нет. Оживленным выглядит &lt;a href=&#34;https://github.com/PanJiaChen/vue-element-admin&#34; target=&#34;_blank&#34;&gt;vue-element-admin&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;низкоуровневая библиотека? &lt;code&gt;D3.js&lt;/code&gt;! надстройка? &lt;code&gt;Vega-lite&lt;/code&gt;. А чтобы пользоваться?
-&lt;a href=&#34;https://altair-viz.github.io/&#34; target=&#34;_blank&#34;&gt;Altair&lt;/a&gt;! (снова питон)&lt;/li&gt;
+&lt;a href=&#34;https://altair-viz.github.io/&#34; target=&#34;_blank&#34;&gt;Altair&lt;/a&gt;! (Это снова питон.)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;div class=&#34;footnotes&#34;&gt;
 
