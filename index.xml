@@ -132,45 +132,141 @@ using Ruby environment for Jekyll)&lt;/li&gt;
 
 &lt;h1 id=&#34;userful-tools-and-concepts&#34;&gt;Userful tools and concepts&lt;/h1&gt;
 
-&lt;p&gt;URL: &lt;a href=&#34;https://epogrebnyak.github.io/slides/tools/&#34; target=&#34;_blank&#34;&gt;https://epogrebnyak.github.io/slides/tools/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://epogrebnyak.github.io/slides/tools/&#34; target=&#34;_blank&#34;&gt;https://epogrebnyak.github.io/slides/tools/&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;@title[Productivity:]&lt;/p&gt;
+&lt;h2 id=&#34;command-line&#34;&gt;Command line&lt;/h2&gt;
 
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; WSL, command line, linux&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; remote computing, ssh,&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; editors: vim -&amp;gt; IDEs&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; AWS S3&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; git, workflow, messages&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Travis CI&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; data, DAG, storage&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; doi, bibliography&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; even file naming&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; PDF&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; markdown, pandoc, PDF&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; todos, try, doing, done&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; docs - coding style, sphinx&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Twitter&lt;/label&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;[ ] Linux&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;file system&lt;/li&gt;
+&lt;li&gt;streams and pipes&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[ ] Windows&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;WSL&lt;/li&gt;
+&lt;li&gt;MINGW&lt;/li&gt;
+&lt;li&gt;набор утилит&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[ ] Remote machine&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Google Colab&lt;/li&gt;
+&lt;li&gt;Termux (Android)&lt;/li&gt;
+&lt;li&gt;AWS EC2&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.digitalocean.com&#34; target=&#34;_blank&#34;&gt;Digital Ocean&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Яндекс, Mail&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;@title[Coding:]&lt;/p&gt;
+&lt;h2 id=&#34;test-driven-development-tdd&#34;&gt;Test-driven development (TDD)&lt;/h2&gt;
 
 &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;[ ] Unit test, end-to-end tests and &lt;code&gt;dirty hybrids&lt;/code&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;UnitTest&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pytest&lt;/code&gt;
+&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[ ] Continious integration&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Travis CI&lt;/li&gt;
+&lt;li&gt;Circle CI&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[ ] Test coverage&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Workflow&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Messages&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;Where:
+
+&lt;ul&gt;
+&lt;li&gt;Github + Gist&lt;/li&gt;
+&lt;li&gt;Gitlab&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;data&#34;&gt;Data&lt;/h2&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; DAG&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; storage (eg AWS S3)&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;publishing&#34;&gt;Publishing&lt;/h2&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; doi, bibliography&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; markdown, pandoc, PDF&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Latex&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; markdown&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; asciidoctor (Ruby)&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;coding&#34;&gt;Coding&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;editors: vim -&amp;gt; IDEs&lt;/li&gt;
+&lt;li&gt;REPL&lt;/li&gt;
 &lt;li&gt;OOP vs FP&lt;/li&gt;
 &lt;li&gt;databases: ORM, SQL&lt;/li&gt;
 &lt;li&gt;O(n) notation&lt;/li&gt;
-&lt;li&gt;TDD&lt;/li&gt;
-&lt;li&gt;library popularity&lt;/li&gt;
-&lt;li&gt;&lt;/li&gt;
+&lt;li&gt;library popularity on github&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;A summary of:&lt;/p&gt;
+&lt;h2 id=&#34;productivity&#34;&gt;Productivity&lt;/h2&gt;
+
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; todos, try, doing, done&lt;/label&gt;&lt;/li&gt;
+&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; even file naming&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;как-вообще-мы-вызываем-функцию&#34;&gt;Как вообще мы вызываем функцию?&lt;/h2&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-width=550&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;f(5,6) - &amp;quot;The ideal syntax for practical programmers&amp;quot;&lt;br&gt;f 5 6 - &amp;quot;Bizarre; only academics would use&amp;quot;&lt;br&gt;(f 5 6) - &amp;quot;Too many parentheses&amp;quot;&lt;br&gt;5.f(6) - &amp;quot;Preferred for your next web app&amp;quot;&lt;/p&gt;&amp;mdash; Michael Burge (@TheMichaelBurge) &lt;a href=&#34;https://twitter.com/TheMichaelBurge/status/1058885000588750848?ref_src=twsrc%5Etfw&#34;&gt;November 4, 2018&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-width=550&gt;
+&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;f(5,6) - &amp;quot;The ideal syntax for practical programmers&amp;quot;&lt;br&gt;f 5 6 - &amp;quot;Bizarre; only academics would use&amp;quot;&lt;br&gt;(f 5 6) - &amp;quot;Too many parentheses&amp;quot;&lt;br&gt;5.f(6) - &amp;quot;Preferred for your next web app&amp;quot;&lt;/p&gt;&amp;mdash; Michael Burge (@TheMichaelBurge) &lt;a href=&#34;https://twitter.com/TheMichaelBurge/status/1058885000588750848?ref_src=twsrc%5Etfw&#34;&gt;November 4, 2018&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;a-summary-of&#34;&gt;A summary of&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/epogrebnyak/notes-linux-cli&#34; target=&#34;_blank&#34;&gt;https://github.com/epogrebnyak/notes-linux-cli&lt;/a&gt; for WSL&lt;/li&gt;
@@ -181,7 +277,20 @@ using Ruby environment for Jekyll)&lt;/li&gt;
 
 &lt;hr /&gt;
 
-&lt;p&gt;Built with markdown and &lt;a href=&#34;http://gitpitch.com&#34; target=&#34;_blank&#34;&gt;gitpitch.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Built with:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;markdown&lt;/li&gt;
+&lt;li&gt;Hugo&lt;/li&gt;
+&lt;li&gt;reveal.js&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.unfollowspy.com/searchmy.php&#34; target=&#34;_blank&#34;&gt;Twitter search&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Tried:
+ - &lt;a href=&#34;http://gitpitch.com&#34; target=&#34;_blank&#34;&gt;gitpitch.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;May try:
+ - &lt;code&gt;npm reveal-md&lt;/code&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 

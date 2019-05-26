@@ -60,7 +60,7 @@
 
 <h1 id="userful-tools-and-concepts">Userful tools and concepts</h1>
 
-<p>URL: <a href="https://epogrebnyak.github.io/slides/tools/" target="_blank">https://epogrebnyak.github.io/slides/tools/</a></p>
+<p><a href="https://epogrebnyak.github.io/slides/tools/" target="_blank">https://epogrebnyak.github.io/slides/tools/</a></p>
 
 
     </section>
@@ -73,23 +73,33 @@
     
       
 
-<p>@title[Productivity:]</p>
+<h2 id="command-line">Command line</h2>
 
-<ul class="task-list">
-<li><label><input type="checkbox" disabled class="task-list-item"> WSL, command line, linux</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> remote computing, ssh,</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> editors: vim -&gt; IDEs</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> AWS S3</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> git, workflow, messages</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> Travis CI</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> data, DAG, storage</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> doi, bibliography</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> even file naming</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> PDF</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> markdown, pandoc, PDF</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> todos, try, doing, done</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> docs - coding style, sphinx</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> Twitter</label></li>
+<ul>
+<li><p>[ ] Linux</p>
+
+<ul>
+<li>file system</li>
+<li>streams and pipes</li>
+</ul></li>
+
+<li><p>[ ] Windows</p>
+
+<ul>
+<li>WSL</li>
+<li>MINGW</li>
+<li>набор утилит</li>
+</ul></li>
+
+<li><p>[ ] Remote machine</p>
+
+<ul>
+<li>Google Colab</li>
+<li>Termux (Android)</li>
+<li>AWS EC2</li>
+<li><a href="https://www.digitalocean.com" target="_blank">Digital Ocean</a></li>
+<li>Яндекс, Mail</li>
+</ul></li>
 </ul>
 
 
@@ -103,15 +113,110 @@
     
       
 
-<p>@title[Coding:]</p>
+<h2 id="test-driven-development-tdd">Test-driven development (TDD)</h2>
 
 <ul>
+<li><p>[ ] Unit test, end-to-end tests and <code>dirty hybrids</code></p>
+
+<ul>
+<li><code>UnitTest</code></li>
+<li><code>pytest</code>
+<br /></li>
+</ul></li>
+
+<li><p>[ ] Continious integration</p>
+
+<ul>
+<li>Travis CI</li>
+<li>Circle CI</li>
+</ul></li>
+
+<li><p>[ ] Test coverage</p></li>
+</ul>
+
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+
+<h2 id="git">Git</h2>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> Workflow</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Messages</label></li>
+<li>Where:
+
+<ul>
+<li>Github + Gist</li>
+<li>Gitlab</li>
+</ul></li>
+</ul>
+
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+
+<h2 id="data">Data</h2>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> DAG</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> storage (eg AWS S3)</label></li>
+</ul>
+
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+
+<h2 id="publishing">Publishing</h2>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> doi, bibliography</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> markdown, pandoc, PDF</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> Latex</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> markdown</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> asciidoctor (Ruby)</label></li>
+</ul>
+
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+
+<h2 id="coding">Coding</h2>
+
+<ul>
+<li>editors: vim -&gt; IDEs</li>
+<li>REPL</li>
 <li>OOP vs FP</li>
 <li>databases: ORM, SQL</li>
 <li>O(n) notation</li>
-<li>TDD</li>
-<li>library popularity</li>
-<li></li>
+<li>library popularity on github</li>
 </ul>
 
 
@@ -125,7 +230,52 @@
     
       
 
-<p>A summary of:</p>
+<h2 id="productivity">Productivity</h2>
+
+<ul class="task-list">
+<li><label><input type="checkbox" disabled class="task-list-item"> todos, try, doing, done</label></li>
+<li><label><input type="checkbox" disabled class="task-list-item"> even file naming</label></li>
+</ul>
+
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+
+<h2 id="как-вообще-мы-вызываем-функцию">Как вообще мы вызываем функцию?</h2>
+
+<p><center>
+<blockquote class="twitter-tweet" data-width=550>
+<p lang="en" dir="ltr">f(5,6) - &quot;The ideal syntax for practical programmers&quot;<br>f 5 6 - &quot;Bizarre; only academics would use&quot;<br>(f 5 6) - &quot;Too many parentheses&quot;<br>5.f(6) - &quot;Preferred for your next web app&quot;</p>&mdash; Michael Burge (@TheMichaelBurge) <a href="https://twitter.com/TheMichaelBurge/status/1058885000588750848?ref_src=twsrc%5Etfw">November 4, 2018</a></blockquote></p>
+
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center></p>
+
+<p><center>
+<blockquote class="twitter-tweet" data-width=550>
+<p lang="en" dir="ltr">f(5,6) - &quot;The ideal syntax for practical programmers&quot;<br>f 5 6 - &quot;Bizarre; only academics would use&quot;<br>(f 5 6) - &quot;Too many parentheses&quot;<br>5.f(6) - &quot;Preferred for your next web app&quot;</p>&mdash; Michael Burge (@TheMichaelBurge) <a href="https://twitter.com/TheMichaelBurge/status/1058885000588750848?ref_src=twsrc%5Etfw">November 4, 2018</a></blockquote></p>
+
+<p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</center></p>
+
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+
+<h2 id="a-summary-of">A summary of</h2>
 
 <ul>
 <li><a href="https://github.com/epogrebnyak/notes-linux-cli" target="_blank">https://github.com/epogrebnyak/notes-linux-cli</a> for WSL</li>
@@ -145,7 +295,20 @@
     
       
 
-<p>Built with markdown and <a href="http://gitpitch.com" target="_blank">gitpitch.com</a></p>
+<p>Built with:</p>
+
+<ul>
+<li>markdown</li>
+<li>Hugo</li>
+<li>reveal.js</li>
+<li><a href="https://www.unfollowspy.com/searchmy.php" target="_blank">Twitter search</a></li>
+</ul>
+
+<p>Tried:
+ - <a href="http://gitpitch.com" target="_blank">gitpitch.com</a></p>
+
+<p>May try:
+ - <code>npm reveal-md</code></p>
 
 
     </section>

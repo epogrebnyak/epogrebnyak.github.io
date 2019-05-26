@@ -17,11 +17,13 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>https://epogrebnyak.github.io/slides/tools/</guid>
-      <description>Userful tools and concepts URL: https://epogrebnyak.github.io/slides/tools/
-@title[Productivity:]
-WSL, command line, linux remote computing, ssh, editors: vim -&amp;gt; IDEs AWS S3 git, workflow, messages Travis CI data, DAG, storage doi, bibliography even file naming PDF markdown, pandoc, PDF todos, try, doing, done docs - coding style, sphinx Twitter  @title[Coding:]
- OOP vs FP databases: ORM, SQL O(n) notation TDD library popularity   A summary of:
- https://github.com/epogrebnyak/notes-linux-cli for WSL https://github.</description>
+      <description>Userful tools and concepts https://epogrebnyak.github.io/slides/tools/
+Command line  [ ] Linux
+ file system streams and pipes  [ ] Windows
+ WSL MINGW набор утилит  [ ] Remote machine
+ Google Colab Termux (Android) AWS EC2 Digital Ocean Яндекс, Mail   Test-driven development (TDD)  [ ] Unit test, end-to-end tests and dirty hybrids
+ UnitTest pytest   [ ] Continious integration
+ Travis CI Circle CI  [ ] Test coverage</description>
     </item>
     
   </channel>
