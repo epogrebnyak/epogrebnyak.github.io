@@ -257,13 +257,6 @@ using Ruby environment for Jekyll)&lt;/li&gt;
 &lt;p&gt;&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 &lt;/center&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;center&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34; data-width=550&gt;
-&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;f(5,6) - &amp;quot;The ideal syntax for practical programmers&amp;quot;&lt;br&gt;f 5 6 - &amp;quot;Bizarre; only academics would use&amp;quot;&lt;br&gt;(f 5 6) - &amp;quot;Too many parentheses&amp;quot;&lt;br&gt;5.f(6) - &amp;quot;Preferred for your next web app&amp;quot;&lt;/p&gt;&amp;mdash; Michael Burge (@TheMichaelBurge) &lt;a href=&#34;https://twitter.com/TheMichaelBurge/status/1058885000588750848?ref_src=twsrc%5Etfw&#34;&gt;November 4, 2018&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-&lt;/center&gt;&lt;/p&gt;
-
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;a-summary-of&#34;&gt;A summary of&lt;/h2&gt;
@@ -286,11 +279,17 @@ using Ruby environment for Jekyll)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.unfollowspy.com/searchmy.php&#34; target=&#34;_blank&#34;&gt;Twitter search&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Tried:
- - &lt;a href=&#34;http://gitpitch.com&#34; target=&#34;_blank&#34;&gt;gitpitch.com&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Tried:&lt;/p&gt;
 
-&lt;p&gt;May try:
- - &lt;code&gt;npm reveal-md&lt;/code&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://gitpitch.com&#34; target=&#34;_blank&#34;&gt;gitpitch.com&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;May try:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;npm reveal-md&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;hr /&gt;
 
