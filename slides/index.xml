@@ -18,12 +18,10 @@
       
       <guid>https://epogrebnyak.github.io/slides/tools/</guid>
       <description>Userful tools and concepts https://epogrebnyak.github.io/slides/tools/
-Command line  [ ] Linux
- file system streams and pipes  [ ] Windows
- WSL MINGW набор утилит  [ ] Remote machine
- Google Colab Termux (Android) AWS EC2 Digital Ocean Яндекс, Mail   Test-driven development (TDD)  [ ] Unit test, end-to-end tests and dirty hybrids
- UnitTest pytest   [ ] Continious integration
- Travis CI Circle CI  [ ] Test coverage</description>
+Command line If on Windows, install WSL.
+Go through Art of command line.
+Concepts  file system (~) streams and redirection (&amp;gt;, &amp;gt;&amp;gt;, |) args and flags (docopt)  Tasks  Fluency on the command line is a skill often neglected or considered arcane, but it improves your flexibility and productivity as an engineer in both obvious and subtle ways.
+ More at Art of command line.</description>
     </item>
     
   </channel>

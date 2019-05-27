@@ -73,34 +73,173 @@
     
       
 
-<h2 id="command-line">Command line</h2>
+<h1 id="command-line">Command line</h1>
+
+<p>If on Windows, install WSL.<br />
+Go through <a href="https://github.com/jlevy/the-art-of-command-line#basics" target="_blank">Art of command line</a>.</p>
+
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+
+<h2 id="concepts">Concepts</h2>
+
+<p><!-- 
+  - `~` vs `%USERPROFILE%`
+  - `%PATH%` and `$PATH`
+  --></p>
 
 <ul>
-<li><p>[ ] Linux</p>
-
-<ul>
-<li>file system</li>
-<li>streams and pipes</li>
-</ul></li>
-
-<li><p>[ ] Windows</p>
-
-<ul>
-<li>WSL</li>
-<li>MINGW</li>
-<li>набор утилит</li>
-</ul></li>
-
-<li><p>[ ] Remote machine</p>
-
-<ul>
-<li>Google Colab</li>
-<li>Termux (Android)</li>
-<li>AWS EC2</li>
-<li><a href="https://www.digitalocean.com" target="_blank">Digital Ocean</a></li>
-<li>Яндекс, Mail</li>
-</ul></li>
+<li>file system (<code>~</code>)</li>
+<li>streams and redirection (<code>&gt;</code>, <code>&gt;&gt;</code>, <code>|</code>)</li>
+<li>args and flags (<a href="http://docopt.org/" target="_blank">docopt</a>)</li>
 </ul>
+
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+
+<h2 id="tasks">Tasks</h2>
+
+<blockquote>
+<p>Fluency on the command line is a skill often neglected or considered arcane, but it improves your flexibility and productivity as an engineer in both obvious and subtle ways.</p>
+</blockquote>
+
+<p>More at <a href="https://github.com/jlevy/the-art-of-command-line#basics" target="_blank">Art of command line</a>.</p>
+
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+
+<h2 id="running-on-windows">Running on Windows</h2>
+
+<ul>
+<li><a href="https://github.com/bmatzelle/gow/wiki" target="_blank">GOW</a></li>
+<li>Cygwin, MinGW</li>
+<li><a href="https://git-scm.com/downloads" target="_blank">Git for Windows</a></li>
+<li><a href="https://cmder.net/" target="_blank">cmder</a></li>
+</ul>
+
+<p><br></p>
+
+<p>On mobile: <a href="https://habr.com/ru/post/444950/" target="_blank">Termux (Android)</a></p>
+
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+
+<h2 id="windows-subsystem-for-linux-wsl-https-www-google-com-search-q-wsl">Windows Subsystem for Linux (<a href="https://www.google.com/search?q=wsl" target="_blank">WSL</a>)</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8gw0rXPMMPE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<p>Video: <a href="https://youtu.be/Zi0eofqAkXU?t=758" target="_blank">WSL architecture</a></p>
+
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+
+<h2 id="remote-machine">Remote machine</h2>
+
+<p><a href="https://colab.research.google.com/notebooks/welcome.ipynb#" target="_blank">Google Colab</a> is
+a free and fast way to play with command line on a remote machine (with <code>!</code>).</p>
+
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+
+<h2 id="example">Example</h2>
+
+<pre><code>apt-get tree
+man tree
+tree / -d -L 2
+</code></pre>
+
+<p>Why not try this in ​Google Colab?</p>
+
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+
+<h2 id="clouds">&ldquo;Clouds&rdquo;</h2>
+
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+<p><center>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;Would you put your files on someone else&#39;s computer?&quot;<br><br>&quot;Lol no&quot;<br><br>&quot;Would you put your files in the cloud though?&quot;<br><br>&quot;That sounds lovely, I love clouds&quot;</p>&mdash; ᴠᴀɴ sᴄʜɴᴇɪᴅᴇʀ (@vanschneider) <a href="https://twitter.com/vanschneider/status/1029038916878385156?ref_src=twsrc%5Etfw">August 13, 2018</a></blockquote></p>
+
+<h2 id="center"></center></h2>
+
+<h2 id="remote-machines">Remote machines</h2>
+
+<ul>
+<li><a href="https://aws.amazon.com/ru/ec2/" target="_blank">AWS EC2</a></li>
+<li><a href="https://www.digitalocean.com" target="_blank">Digital Ocean</a></li>
+<li>Yandex and Mail.ru</li>
+</ul>
+
+<p>All have (temporarily) free plans</p>
+
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+
+<h1 id="end-of-cli">End of CLI</h1>
 
 
     </section>
@@ -251,11 +390,13 @@
 <h2 id="как-вообще-мы-вызываем-функцию">Как вообще мы вызываем функцию?</h2>
 
 <p><center>
-<blockquote class="twitter-tweet" data-width=550>
+<blockquote class="twitter-tweet">
 <p lang="en" dir="ltr">f(5,6) - &quot;The ideal syntax for practical programmers&quot;<br>f 5 6 - &quot;Bizarre; only academics would use&quot;<br>(f 5 6) - &quot;Too many parentheses&quot;<br>5.f(6) - &quot;Preferred for your next web app&quot;</p>&mdash; Michael Burge (@TheMichaelBurge) <a href="https://twitter.com/TheMichaelBurge/status/1058885000588750848?ref_src=twsrc%5Etfw">November 4, 2018</a></blockquote></p>
 
 <p><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </center></p>
+
+<p>data-width=550</p>
 
 
     </section>
@@ -297,17 +438,11 @@
 <li><a href="https://www.unfollowspy.com/searchmy.php" target="_blank">Twitter search</a></li>
 </ul>
 
-<p>Tried:</p>
+<p>Tried:
+ - <a href="http://gitpitch.com" target="_blank">gitpitch.com</a></p>
 
-<ul>
-<li><a href="http://gitpitch.com" target="_blank">gitpitch.com</a></li>
-</ul>
-
-<p>May try:</p>
-
-<ul>
-<li><code>npm reveal-md</code></li>
-</ul>
+<p>May try:
+ - <code>npm reveal-md</code></p>
 
 
     </section>

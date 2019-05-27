@@ -136,34 +136,101 @@ using Ruby environment for Jekyll)&lt;/li&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;command-line&#34;&gt;Command line&lt;/h2&gt;
+&lt;h1 id=&#34;command-line&#34;&gt;Command line&lt;/h1&gt;
+
+&lt;p&gt;If on Windows, install WSL.&lt;br /&gt;
+Go through &lt;a href=&#34;https://github.com/jlevy/the-art-of-command-line#basics&#34; target=&#34;_blank&#34;&gt;Art of command line&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;concepts&#34;&gt;Concepts&lt;/h2&gt;
+
+&lt;p&gt;&lt;!-- 
+  - `~` vs `%USERPROFILE%`
+  - `%PATH%` and `$PATH`
+  --&gt;&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;p&gt;[ ] Linux&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;file system&lt;/li&gt;
-&lt;li&gt;streams and pipes&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;[ ] Windows&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;WSL&lt;/li&gt;
-&lt;li&gt;MINGW&lt;/li&gt;
-&lt;li&gt;набор утилит&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;[ ] Remote machine&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Google Colab&lt;/li&gt;
-&lt;li&gt;Termux (Android)&lt;/li&gt;
-&lt;li&gt;AWS EC2&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.digitalocean.com&#34; target=&#34;_blank&#34;&gt;Digital Ocean&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;Яндекс, Mail&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;file system (&lt;code&gt;~&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;streams and redirection (&lt;code&gt;&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;gt;&amp;gt;&lt;/code&gt;, &lt;code&gt;|&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;args and flags (&lt;a href=&#34;http://docopt.org/&#34; target=&#34;_blank&#34;&gt;docopt&lt;/a&gt;)&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;tasks&#34;&gt;Tasks&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Fluency on the command line is a skill often neglected or considered arcane, but it improves your flexibility and productivity as an engineer in both obvious and subtle ways.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;More at &lt;a href=&#34;https://github.com/jlevy/the-art-of-command-line#basics&#34; target=&#34;_blank&#34;&gt;Art of command line&lt;/a&gt;.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;running-on-windows&#34;&gt;Running on Windows&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/bmatzelle/gow/wiki&#34; target=&#34;_blank&#34;&gt;GOW&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Cygwin, MinGW&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34;&gt;Git for Windows&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://cmder.net/&#34; target=&#34;_blank&#34;&gt;cmder&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;br&gt;&lt;/p&gt;
+
+&lt;p&gt;On mobile: &lt;a href=&#34;https://habr.com/ru/post/444950/&#34; target=&#34;_blank&#34;&gt;Termux (Android)&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;windows-subsystem-for-linux-wsl-https-www-google-com-search-q-wsl&#34;&gt;Windows Subsystem for Linux (&lt;a href=&#34;https://www.google.com/search?q=wsl&#34; target=&#34;_blank&#34;&gt;WSL&lt;/a&gt;)&lt;/h2&gt;
+
+&lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/8gw0rXPMMPE&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;Video: &lt;a href=&#34;https://youtu.be/Zi0eofqAkXU?t=758&#34; target=&#34;_blank&#34;&gt;WSL architecture&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;remote-machine&#34;&gt;Remote machine&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/notebooks/welcome.ipynb#&#34; target=&#34;_blank&#34;&gt;Google Colab&lt;/a&gt; is
+a free and fast way to play with command line on a remote machine (with &lt;code&gt;!&lt;/code&gt;).&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;example&#34;&gt;Example&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code&gt;apt-get tree
+man tree
+tree / -d -L 2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Why not try this in ​Google Colab?&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;clouds&#34;&gt;&amp;ldquo;Clouds&amp;rdquo;&lt;/h2&gt;
+
+&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt; 
+
+&lt;p&gt;&lt;center&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;Would you put your files on someone else&amp;#39;s computer?&amp;quot;&lt;br&gt;&lt;br&gt;&amp;quot;Lol no&amp;quot;&lt;br&gt;&lt;br&gt;&amp;quot;Would you put your files in the cloud though?&amp;quot;&lt;br&gt;&lt;br&gt;&amp;quot;That sounds lovely, I love clouds&amp;quot;&lt;/p&gt;&amp;mdash; ᴠᴀɴ sᴄʜɴᴇɪᴅᴇʀ (@vanschneider) &lt;a href=&#34;https://twitter.com/vanschneider/status/1029038916878385156?ref_src=twsrc%5Etfw&#34;&gt;August 13, 2018&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;center&#34;&gt;&lt;/center&gt;&lt;/h2&gt;
+
+&lt;h2 id=&#34;remote-machines&#34;&gt;Remote machines&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/ru/ec2/&#34; target=&#34;_blank&#34;&gt;AWS EC2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://www.digitalocean.com&#34; target=&#34;_blank&#34;&gt;Digital Ocean&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;Yandex and Mail.ru&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;All have (temporarily) free plans&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;end-of-cli&#34;&gt;End of CLI&lt;/h1&gt;
 
 &lt;hr /&gt;
 
@@ -251,11 +318,13 @@ using Ruby environment for Jekyll)&lt;/li&gt;
 &lt;h2 id=&#34;как-вообще-мы-вызываем-функцию&#34;&gt;Как вообще мы вызываем функцию?&lt;/h2&gt;
 
 &lt;p&gt;&lt;center&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34; data-width=550&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;
 &lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;f(5,6) - &amp;quot;The ideal syntax for practical programmers&amp;quot;&lt;br&gt;f 5 6 - &amp;quot;Bizarre; only academics would use&amp;quot;&lt;br&gt;(f 5 6) - &amp;quot;Too many parentheses&amp;quot;&lt;br&gt;5.f(6) - &amp;quot;Preferred for your next web app&amp;quot;&lt;/p&gt;&amp;mdash; Michael Burge (@TheMichaelBurge) &lt;a href=&#34;https://twitter.com/TheMichaelBurge/status/1058885000588750848?ref_src=twsrc%5Etfw&#34;&gt;November 4, 2018&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 &lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;data-width=550&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -279,17 +348,11 @@ using Ruby environment for Jekyll)&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://www.unfollowspy.com/searchmy.php&#34; target=&#34;_blank&#34;&gt;Twitter search&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Tried:&lt;/p&gt;
+&lt;p&gt;Tried:
+ - &lt;a href=&#34;http://gitpitch.com&#34; target=&#34;_blank&#34;&gt;gitpitch.com&lt;/a&gt;&lt;/p&gt;
 
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://gitpitch.com&#34; target=&#34;_blank&#34;&gt;gitpitch.com&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;May try:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;npm reveal-md&lt;/code&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;May try:
+ - &lt;code&gt;npm reveal-md&lt;/code&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
