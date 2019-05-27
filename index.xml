@@ -209,14 +209,21 @@ tree / -d -L 2
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;clouds&#34;&gt;&amp;ldquo;Clouds&amp;rdquo;&lt;/h2&gt;
+&lt;h2 id=&#34;cloud&#34;&gt;Cloud&amp;hellip;&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://www.cnbc.com/2014/07/17/using-sex-tape-to-explain-the-cloudcommentary.html&#34; target=&#34;_blank&#34;&gt;&lt;img src=&#34;https://fm.cnbc.com/applications/cnbc.com/resources/img/editorial/2014/07/16/101843014-sex-tape.530x298.jpg?v=1405549602&#34; alt=&#34;&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;or-just-someone-else-s-computer&#34;&gt;&amp;hellip; or just someone else&amp;rsquo;s computer?&lt;/h2&gt;
 
 &lt;script async src=&#34;https://platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt; 
 
 &lt;p&gt;&lt;center&gt;
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;Would you put your files on someone else&amp;#39;s computer?&amp;quot;&lt;br&gt;&lt;br&gt;&amp;quot;Lol no&amp;quot;&lt;br&gt;&lt;br&gt;&amp;quot;Would you put your files in the cloud though?&amp;quot;&lt;br&gt;&lt;br&gt;&amp;quot;That sounds lovely, I love clouds&amp;quot;&lt;/p&gt;&amp;mdash; ᴠᴀɴ sᴄʜɴᴇɪᴅᴇʀ (@vanschneider) &lt;a href=&#34;https://twitter.com/vanschneider/status/1029038916878385156?ref_src=twsrc%5Etfw&#34;&gt;August 13, 2018&lt;/a&gt;&lt;/blockquote&gt;&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;&amp;quot;Would you put your files on someone else&amp;#39;s computer?&amp;quot;&lt;br&gt;&lt;br&gt;&amp;quot;Lol no&amp;quot;&lt;br&gt;&lt;br&gt;&amp;quot;Would you put your files in the cloud though?&amp;quot;&lt;br&gt;&lt;br&gt;&amp;quot;That sounds lovely, I love clouds&amp;quot;&lt;/p&gt;&amp;mdash; ᴠᴀɴ sᴄʜɴᴇɪᴅᴇʀ (@vanschneider) &lt;a href=&#34;https://twitter.com/vanschneider/status/1029038916878385156?ref_src=twsrc%5Etfw&#34;&gt;August 13, 2018&lt;/a&gt;&lt;/blockquote&gt;
+&lt;/center&gt;&lt;/p&gt;
 
-&lt;h2 id=&#34;center&#34;&gt;&lt;/center&gt;&lt;/h2&gt;
+&lt;hr /&gt;
 
 &lt;h2 id=&#34;remote-machines&#34;&gt;Remote machines&lt;/h2&gt;
 
@@ -226,42 +233,45 @@ tree / -d -L 2
 &lt;li&gt;Yandex and Mail.ru&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;All have (temporarily) free plans&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;assets/paycloud.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;All have (temporarily) free plans.&lt;/p&gt;
 
 &lt;hr /&gt;
 
-&lt;h1 id=&#34;end-of-cli&#34;&gt;End of CLI&lt;/h1&gt;
+&lt;h1 id=&#34;test-driven-development-tdd&#34;&gt;Test-driven development (TDD)&lt;/h1&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;test-driven-development-tdd&#34;&gt;Test-driven development (TDD)&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;p&gt;[ ] Unit test, end-to-end tests and &lt;code&gt;dirty hybrids&lt;/code&gt;&lt;/p&gt;
+&lt;h2 id=&#34;unit-test-end-to-end-tests-and-dirty-hybrids&#34;&gt;Unit test, end-to-end tests and &lt;code&gt;dirty hybrids&lt;/code&gt;&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;UnitTest&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;pytest&lt;/code&gt;
-&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;[ ] Continious integration&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Travis CI&lt;/li&gt;
-&lt;li&gt;Circle CI&lt;/li&gt;
-&lt;/ul&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;[ ] Test coverage&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;pytest&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;git&#34;&gt;Git&lt;/h2&gt;
+&lt;h2 id=&#34;continious-integration&#34;&gt;Continious integration&lt;/h2&gt;
 
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Workflow&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Messages&lt;/label&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Travis CI&lt;/li&gt;
+&lt;li&gt;Circle CI&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;test-coverage&#34;&gt;Test coverage&lt;/h2&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&#34;git&#34;&gt;Git&lt;/h1&gt;
+
+&lt;hr /&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Workflow&lt;/li&gt;
+&lt;li&gt;Messages&lt;/li&gt;
 &lt;li&gt;Where:
 
 &lt;ul&gt;
@@ -296,12 +306,19 @@ tree / -d -L 2
 &lt;h2 id=&#34;coding&#34;&gt;Coding&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;editors: vim -&amp;gt; IDEs&lt;/li&gt;
 &lt;li&gt;REPL&lt;/li&gt;
 &lt;li&gt;OOP vs FP&lt;/li&gt;
 &lt;li&gt;databases: ORM, SQL&lt;/li&gt;
 &lt;li&gt;O(n) notation&lt;/li&gt;
 &lt;li&gt;library popularity on github&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;editors&#34;&gt;Editors&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;vim -&amp;gt; IDEs&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
