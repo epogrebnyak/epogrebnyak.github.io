@@ -233,7 +233,7 @@ tree / -d -L 2
 &lt;li&gt;Yandex and Mail.ru&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;img src=&#34;assets/paycloud.png&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+&lt;!-- ![](assets/paycloud.png) --&gt;
 
 &lt;p&gt;All have (temporarily) free plans.&lt;/p&gt;
 
