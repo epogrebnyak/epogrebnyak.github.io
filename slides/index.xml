@@ -18,10 +18,11 @@
       
       <guid>https://epogrebnyak.github.io/slides/tools/</guid>
       <description>Userful tools and concepts https://epogrebnyak.github.io/slides/tools/
-Command line If on Windows, install WSL.
+1. Command line If on Windows, install WSL.
 Go through Art of command line.
-Concepts  file system (~) streams and redirection (&amp;gt;, &amp;gt;&amp;gt;, |) args and flags (docopt)  Tasks  Fluency on the command line is a skill often neglected or considered arcane, but it improves your flexibility and productivity as an engineer in both obvious and subtle ways.
- More at Art of command line.</description>
+Tasks  Fluency on the command line is a skill often neglected or considered arcane, but it improves your flexibility and productivity as an engineer in both obvious and subtle ways.
+ More at Art of command line.
+Concepts  file system (~ or %USERPROFILE%, PATH) streams and redirection (&amp;gt;, &amp;gt;&amp;gt;, |) args and flags (docopt) package managers (apt-get)  Running on Windows  GOW Cygwin, MinGW Git for Windows cmder  Windows Subsystem for Linux (WSL)  Video: WSL architecture</description>
     </item>
     
   </channel>

@@ -73,34 +73,10 @@
     
       
 
-<h1 id="command-line">Command line</h1>
+<h1 id="1-command-line">1. Command line</h1>
 
 <p>If on Windows, install WSL.<br />
 Go through <a href="https://github.com/jlevy/the-art-of-command-line#basics" target="_blank">Art of command line</a>.</p>
-
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-
-<h2 id="concepts">Concepts</h2>
-
-<p><!-- 
-  - `~` vs `%USERPROFILE%`
-  - `%PATH%` and `$PATH`
-  --></p>
-
-<ul>
-<li>file system (<code>~</code>)</li>
-<li>streams and redirection (<code>&gt;</code>, <code>&gt;&gt;</code>, <code>|</code>)</li>
-<li>args and flags (<a href="http://docopt.org/" target="_blank">docopt</a>)</li>
-</ul>
 
 
     </section>
@@ -132,6 +108,31 @@ Go through <a href="https://github.com/jlevy/the-art-of-command-line#basics" tar
     
       
 
+<h2 id="concepts">Concepts</h2>
+
+<p><!-- 
+  - `~` vs `%USERPROFILE%`
+  - `%PATH%` and `$PATH`
+  --></p>
+
+<ul>
+<li>file system (<code>~</code> or <code>%USERPROFILE%</code>, <code>PATH</code>)</li>
+<li>streams and redirection (<code>&gt;</code>, <code>&gt;&gt;</code>, <code>|</code>)</li>
+<li>args and flags (<a href="http://docopt.org/" target="_blank">docopt</a>)</li>
+<li>package managers (<code>apt-get</code>)</li>
+</ul>
+
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+
 <h2 id="running-on-windows">Running on Windows</h2>
 
 <ul>
@@ -140,10 +141,6 @@ Go through <a href="https://github.com/jlevy/the-art-of-command-line#basics" tar
 <li><a href="https://git-scm.com/downloads" target="_blank">Git for Windows</a></li>
 <li><a href="https://cmder.net/" target="_blank">cmder</a></li>
 </ul>
-
-<p><br></p>
-
-<p>On mobile: <a href="https://habr.com/ru/post/444950/" target="_blank">Termux (Android)</a></p>
 
 
     </section>
@@ -176,7 +173,7 @@ Go through <a href="https://github.com/jlevy/the-art-of-command-line#basics" tar
 <h2 id="remote-machine">Remote machine</h2>
 
 <p><a href="https://colab.research.google.com/notebooks/welcome.ipynb#" target="_blank">Google Colab</a> is
-a free and fast way to play with command line on a remote machine (with <code>!</code>).</p>
+a free and fast way to play with command line on a remote machine.</p>
 
 
     </section>
@@ -196,7 +193,8 @@ man tree
 tree / -d -L 2
 </code></pre>
 
-<p>Why not try this in ​Google Colab?</p>
+<p>Why not try this in ​Google Colab?
+Prefix every command with <code>!</code></p>
 
 
     </section>
@@ -243,7 +241,13 @@ tree / -d -L 2
     
       
 
-<h2 id="remote-machines">Remote machines</h2>
+<h2 id="temp-free-plans">(Temp) free plans</h2>
+
+<p><img class="plain"  src="/img/paycloud.png"/></p>
+
+<aside class="notes">
+  All have (temporarily) free plans:
+</aside>
 
 <ul>
 <li><a href="https://aws.amazon.com/ru/ec2/" target="_blank">AWS EC2</a></li>
@@ -251,9 +255,24 @@ tree / -d -L 2
 <li>Yandex and Mail.ru</li>
 </ul>
 
-<!-- ![](assets/paycloud.png) -->
+<p>Tip: <a href="https://docs.travis-ci.com/user/uploading-artifacts/" target="_blank">Travis-CI artifacts</a></p>
 
-<p>All have (temporarily) free plans.</p>
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+
+<h2 id="on-mobile">On mobile</h2>
+
+<p><a href="https://habr.com/ru/post/444950/" target="_blank">Termux (Android)</a></p>
+
+<p><img class="plain"  src="https://termux.com/files/weechat-with-keyboard_framed.png"/></p>
 
 
     </section>
@@ -330,24 +349,17 @@ tree / -d -L 2
 
 <h1 id="git">Git</h1>
 
-
-    </section>
-    
-
-    
-    
-    
-    <section>
-    
-      
-
 <ul>
+<li>Use</li>
+<li>Concept</li>
 <li>Workflow</li>
-<li>Messages</li>
-<li>Where:
+
+<li><p>Work in small batches.</p></li>
+
+<li><p>Where:</p>
 
 <ul>
-<li>Github + Gist</li>
+<li>Github</li>
 <li>Gitlab</li>
 </ul></li>
 </ul>
@@ -365,9 +377,9 @@ tree / -d -L 2
 
 <h2 id="data">Data</h2>
 
-<ul class="task-list">
-<li><label><input type="checkbox" disabled class="task-list-item"> DAG</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> storage (eg AWS S3)</label></li>
+<ul>
+<li>Analysis is a DAG</li>
+<li>Data storage (AWS S3)</li>
 </ul>
 
 
@@ -383,12 +395,30 @@ tree / -d -L 2
 
 <h2 id="publishing">Publishing</h2>
 
-<ul class="task-list">
-<li><label><input type="checkbox" disabled class="task-list-item"> doi, bibliography</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> markdown, pandoc, PDF</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> Latex</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> markdown</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> asciidoctor (Ruby)</label></li>
+<ul>
+<li>markdown, pandoc</li>
+<li>asciidoctor (Ruby)</li>
+<li>latex (Overleaf)</li>
+<li>doi, bibliography</li>
+<li>jekyll, hugo</li>
+</ul>
+
+
+    </section>
+    
+
+    
+    
+    
+    <section>
+    
+      
+
+<p>Обеспечения надзора</p>
+
+<ul>
+<li>Руководитель экспертной группы</li>
+<li>Полонский</li>
 </ul>
 
 
@@ -404,11 +434,29 @@ tree / -d -L 2
 
 <h2 id="coding">Coding</h2>
 
+<p>Tweet: coding interview</p>
+
+<p>Concepts:</p>
+
 <ul>
-<li>REPL</li>
 <li>OOP vs FP</li>
+<li>algorithm, O(n) notation</li>
+<li>Turing / state machine</li>
+</ul>
+
+<p>Use:</p>
+
+<ul>
+<li>REPL + text editor</li>
 <li>databases: ORM, SQL</li>
-<li>O(n) notation</li>
+<li>regex</li>
+</ul>
+
+<p>Learn from:</p>
+
+<ul>
+<li>SO</li>
+<li>dev.to</li>
 <li>library popularity on github</li>
 </ul>
 
@@ -423,10 +471,13 @@ tree / -d -L 2
     
       
 
-<h2 id="editors">Editors</h2>
+<h2 id="editors-vs-ides">Editors (vs IDEs)</h2>
 
 <ul>
-<li>vim -&gt; IDEs</li>
+<li><code>:q</code>  for vim</li>
+<li>VSCode</li>
+<li>Sublime</li>
+<li>Notepad++</li>
 </ul>
 
 
@@ -442,9 +493,10 @@ tree / -d -L 2
 
 <h2 id="productivity">Productivity</h2>
 
-<ul class="task-list">
-<li><label><input type="checkbox" disabled class="task-list-item"> todos, try, doing, done</label></li>
-<li><label><input type="checkbox" disabled class="task-list-item"> even file naming</label></li>
+<ul>
+<li>todo.txt</li>
+<li>todos, try, doing, done</li>
+<li>file naming</li>
 </ul>
 
 

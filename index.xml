@@ -136,25 +136,10 @@ using Ruby environment for Jekyll)&lt;/li&gt;
 
 &lt;hr /&gt;
 
-&lt;h1 id=&#34;command-line&#34;&gt;Command line&lt;/h1&gt;
+&lt;h1 id=&#34;1-command-line&#34;&gt;1. Command line&lt;/h1&gt;
 
 &lt;p&gt;If on Windows, install WSL.&lt;br /&gt;
 Go through &lt;a href=&#34;https://github.com/jlevy/the-art-of-command-line#basics&#34; target=&#34;_blank&#34;&gt;Art of command line&lt;/a&gt;.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;h2 id=&#34;concepts&#34;&gt;Concepts&lt;/h2&gt;
-
-&lt;p&gt;&lt;!-- 
-  - `~` vs `%USERPROFILE%`
-  - `%PATH%` and `$PATH`
-  --&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;file system (&lt;code&gt;~&lt;/code&gt;)&lt;/li&gt;
-&lt;li&gt;streams and redirection (&lt;code&gt;&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;gt;&amp;gt;&lt;/code&gt;, &lt;code&gt;|&lt;/code&gt;)&lt;/li&gt;
-&lt;li&gt;args and flags (&lt;a href=&#34;http://docopt.org/&#34; target=&#34;_blank&#34;&gt;docopt&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
 
 &lt;hr /&gt;
 
@@ -168,6 +153,22 @@ Go through &lt;a href=&#34;https://github.com/jlevy/the-art-of-command-line#basi
 
 &lt;hr /&gt;
 
+&lt;h2 id=&#34;concepts&#34;&gt;Concepts&lt;/h2&gt;
+
+&lt;p&gt;&lt;!-- 
+  - `~` vs `%USERPROFILE%`
+  - `%PATH%` and `$PATH`
+  --&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;file system (&lt;code&gt;~&lt;/code&gt; or &lt;code&gt;%USERPROFILE%&lt;/code&gt;, &lt;code&gt;PATH&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;streams and redirection (&lt;code&gt;&amp;gt;&lt;/code&gt;, &lt;code&gt;&amp;gt;&amp;gt;&lt;/code&gt;, &lt;code&gt;|&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;args and flags (&lt;a href=&#34;http://docopt.org/&#34; target=&#34;_blank&#34;&gt;docopt&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;package managers (&lt;code&gt;apt-get&lt;/code&gt;)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
 &lt;h2 id=&#34;running-on-windows&#34;&gt;Running on Windows&lt;/h2&gt;
 
 &lt;ul&gt;
@@ -176,10 +177,6 @@ Go through &lt;a href=&#34;https://github.com/jlevy/the-art-of-command-line#basi
 &lt;li&gt;&lt;a href=&#34;https://git-scm.com/downloads&#34; target=&#34;_blank&#34;&gt;Git for Windows&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://cmder.net/&#34; target=&#34;_blank&#34;&gt;cmder&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;br&gt;&lt;/p&gt;
-
-&lt;p&gt;On mobile: &lt;a href=&#34;https://habr.com/ru/post/444950/&#34; target=&#34;_blank&#34;&gt;Termux (Android)&lt;/a&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -194,7 +191,7 @@ Go through &lt;a href=&#34;https://github.com/jlevy/the-art-of-command-line#basi
 &lt;h2 id=&#34;remote-machine&#34;&gt;Remote machine&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://colab.research.google.com/notebooks/welcome.ipynb#&#34; target=&#34;_blank&#34;&gt;Google Colab&lt;/a&gt; is
-a free and fast way to play with command line on a remote machine (with &lt;code&gt;!&lt;/code&gt;).&lt;/p&gt;
+a free and fast way to play with command line on a remote machine.&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -205,7 +202,8 @@ man tree
 tree / -d -L 2
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;Why not try this in ​Google Colab?&lt;/p&gt;
+&lt;p&gt;Why not try this in ​Google Colab?
+Prefix every command with &lt;code&gt;!&lt;/code&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -225,7 +223,13 @@ tree / -d -L 2
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;remote-machines&#34;&gt;Remote machines&lt;/h2&gt;
+&lt;h2 id=&#34;temp-free-plans&#34;&gt;(Temp) free plans&lt;/h2&gt;
+
+&lt;p&gt;&lt;img class=&#34;plain&#34;  src=&#34;https://epogrebnyak.github.io/img/paycloud.png&#34;/&gt;&lt;/p&gt;
+
+&lt;aside class=&#34;notes&#34;&gt;
+  All have (temporarily) free plans:
+&lt;/aside&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://aws.amazon.com/ru/ec2/&#34; target=&#34;_blank&#34;&gt;AWS EC2&lt;/a&gt;&lt;/li&gt;
@@ -233,9 +237,15 @@ tree / -d -L 2
 &lt;li&gt;Yandex and Mail.ru&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;!-- ![](assets/paycloud.png) --&gt;
+&lt;p&gt;Tip: &lt;a href=&#34;https://docs.travis-ci.com/user/uploading-artifacts/&#34; target=&#34;_blank&#34;&gt;Travis-CI artifacts&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;All have (temporarily) free plans.&lt;/p&gt;
+&lt;hr /&gt;
+
+&lt;h2 id=&#34;on-mobile&#34;&gt;On mobile&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://habr.com/ru/post/444950/&#34; target=&#34;_blank&#34;&gt;Termux (Android)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img class=&#34;plain&#34;  src=&#34;https://termux.com/files/weechat-with-keyboard_framed.png&#34;/&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -267,15 +277,17 @@ tree / -d -L 2
 
 &lt;h1 id=&#34;git&#34;&gt;Git&lt;/h1&gt;
 
-&lt;hr /&gt;
-
 &lt;ul&gt;
+&lt;li&gt;Use&lt;/li&gt;
+&lt;li&gt;Concept&lt;/li&gt;
 &lt;li&gt;Workflow&lt;/li&gt;
-&lt;li&gt;Messages&lt;/li&gt;
-&lt;li&gt;Where:
+
+&lt;li&gt;&lt;p&gt;Work in small batches.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Where:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Github + Gist&lt;/li&gt;
+&lt;li&gt;Github&lt;/li&gt;
 &lt;li&gt;Gitlab&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
@@ -284,50 +296,81 @@ tree / -d -L 2
 
 &lt;h2 id=&#34;data&#34;&gt;Data&lt;/h2&gt;
 
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; DAG&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; storage (eg AWS S3)&lt;/label&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;Analysis is a DAG&lt;/li&gt;
+&lt;li&gt;Data storage (AWS S3)&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;publishing&#34;&gt;Publishing&lt;/h2&gt;
 
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; doi, bibliography&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; markdown, pandoc, PDF&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; Latex&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; markdown&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; asciidoctor (Ruby)&lt;/label&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;markdown, pandoc&lt;/li&gt;
+&lt;li&gt;asciidoctor (Ruby)&lt;/li&gt;
+&lt;li&gt;latex (Overleaf)&lt;/li&gt;
+&lt;li&gt;doi, bibliography&lt;/li&gt;
+&lt;li&gt;jekyll, hugo&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Обеспечения надзора&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Руководитель экспертной группы&lt;/li&gt;
+&lt;li&gt;Полонский&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;coding&#34;&gt;Coding&lt;/h2&gt;
 
+&lt;p&gt;Tweet: coding interview&lt;/p&gt;
+
+&lt;p&gt;Concepts:&lt;/p&gt;
+
 &lt;ul&gt;
-&lt;li&gt;REPL&lt;/li&gt;
 &lt;li&gt;OOP vs FP&lt;/li&gt;
+&lt;li&gt;algorithm, O(n) notation&lt;/li&gt;
+&lt;li&gt;Turing / state machine&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Use:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;REPL + text editor&lt;/li&gt;
 &lt;li&gt;databases: ORM, SQL&lt;/li&gt;
-&lt;li&gt;O(n) notation&lt;/li&gt;
+&lt;li&gt;regex&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Learn from:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;SO&lt;/li&gt;
+&lt;li&gt;dev.to&lt;/li&gt;
 &lt;li&gt;library popularity on github&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
 
-&lt;h2 id=&#34;editors&#34;&gt;Editors&lt;/h2&gt;
+&lt;h2 id=&#34;editors-vs-ides&#34;&gt;Editors (vs IDEs)&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;vim -&amp;gt; IDEs&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;:q&lt;/code&gt;  for vim&lt;/li&gt;
+&lt;li&gt;VSCode&lt;/li&gt;
+&lt;li&gt;Sublime&lt;/li&gt;
+&lt;li&gt;Notepad++&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;
 
 &lt;h2 id=&#34;productivity&#34;&gt;Productivity&lt;/h2&gt;
 
-&lt;ul class=&#34;task-list&#34;&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; todos, try, doing, done&lt;/label&gt;&lt;/li&gt;
-&lt;li&gt;&lt;label&gt;&lt;input type=&#34;checkbox&#34; disabled class=&#34;task-list-item&#34;&gt; even file naming&lt;/label&gt;&lt;/li&gt;
+&lt;ul&gt;
+&lt;li&gt;todo.txt&lt;/li&gt;
+&lt;li&gt;todos, try, doing, done&lt;/li&gt;
+&lt;li&gt;file naming&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;hr /&gt;

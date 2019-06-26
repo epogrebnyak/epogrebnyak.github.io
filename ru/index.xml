@@ -7,8 +7,117 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru</language>
     <copyright>&amp;copy; Evgeniy Pogrebnyak</copyright>
-    <lastBuildDate>Fri, 22 Mar 2019 04:47:54 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 27 Jun 2019 00:58:29 +0300</lastBuildDate>
     <atom:link href="/ru/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Что Сiti поведал о будущем банков: 8 цитат</title>
+      <link>https://epogrebnyak.github.io/ru/post/2019-06-27-what-citi-said-on-bank-x/</link>
+      <pubDate>Thu, 27 Jun 2019 00:58:29 +0300</pubDate>
+      
+      <guid>https://epogrebnyak.github.io/ru/post/2019-06-27-what-citi-said-on-bank-x/</guid>
+      <description>
+
+&lt;p&gt;Вкратце:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;миграция core banking это боль, отсутствие миграции - это смерть;&lt;/li&gt;
+&lt;li&gt;смерть наступит от платформ, где будут сидеть пользователи (GAFA/BAT);&lt;/li&gt;
+&lt;li&gt;из старинных фукнций банков у них останутся только некоторые и то из-за брендов.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;банки-будут-бэкэндом-к-gafa-google-apple-facebook-and-amazon-и-bat-baidu-alibaba-and-tencent&#34;&gt;Банки будут бэкэндом к GAFA (Google, Apple, Facebook, and Amazon) и BAT (Baidu, Alibaba, and Tencent)&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;With PSD2, banks are increasingly at risk of
+becoming mere tubes in the banking process where the front-end products are with
+GAFA and the back-end processes are with traditional banks.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;EP: идея красивая, но, видимо, разная история будет с транзакционным бизнесом (зачем там банки) и кредитованием (баланс, риски).&lt;/p&gt;
+
+&lt;h2 id=&#34;к-плохому-бэкэнду-хороший-фронт-не-приставишь&#34;&gt;К плохому бэкэнду хороший фронт не приставишь&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Focusing only on the front-end is the biggest challenge banks face. Not innovating back-end processes is more like putting lipstick on a pig.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;EP: уже стало народной мудростью?&lt;/p&gt;
+
+&lt;h2 id=&#34;замена-core-banking-5-лет-а-мы-не-знаем-что-будет-через-5-лет&#34;&gt;Замена core banking - 5 лет. А мы не знаем, что будет через 5 лет.&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;If I need to do something that touches my core banking system, and my core
+banking system is limited because it was designed to solve different kinds of
+problems, what do I do traditionally? I go to the person who provided my core
+banking system and ask them to do better. But it takes 5 years to replace the older huge version with a new version which is equally huge.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;EP: миграции бывают и быстрее, год-два, но цифра 5 лет хорошо передает масштаб неповоротливости core banking.&lt;/p&gt;
+
+&lt;h2 id=&#34;при-этом-мигрировать-можно-и-десятилетие-и-платить-за-две-ит-системы&#34;&gt;При этом мигрировать можно и десятилетие и платить за две ИТ системы&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;&amp;hellip; phased roll-out has its disadvantages too. It can drag on for years and you end up paying both providers and maintaining both systems. Just take a look at the example of Suncorp in Australia, where the bank has been paying both CSC for its &lt;a href=&#34;https://www.bankingtech.com/2019/02/oracle-feels-the-chill-from-suncorp-ceo-over-core-banking-freeze/&#34; target=&#34;_blank&#34;&gt;legacy Hogan system and Oracle for its Oracle Banking Platform system for nearly a decade now&lt;/a&gt;.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h2 id=&#34;дожить-до-пенсии-и-ничего-не-далть&#34;&gt;Дожить до пенсии и ничего не далть&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;A very big bank is unlikely to go for a full end-to-end overhaul in one go
+because it is just too risky and difficult. Often, CIOs and CTOs try to avoid this and
+wait it out until their retirement and then let somebody else take over and manage
+the project risk.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;EP: хорошо для менеджмента, плохо для инвесторов.&lt;/p&gt;
+
+&lt;h2 id=&#34;игроки-на-рынке-core-banking&#34;&gt;Игроки на рынке core banking&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;If a big bank is embarking on a major core system transformation, the
+pool of vendors to choose from is limited. There is Oracle Flexcube, TCS BaNCS,
+Finacle Infosys, Finastra (which probably everybody still remembers as Misys),
+SAP, and Temenos. These are the main players on the international arena that you will be looking at.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;In the U.S. the picture is different. If you are a domestic bank you have four tech
+heavyweights: Jack Henry, FIS, Fiserv, and now Finastra as well (what used to be
+D+H, and Open Solutions before that).&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&amp;hellip; especially for Temenos, it is the firm’s bread and butter. Temenos sales process is well-organized and sleek.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;The new entrants such as 10x Technologies, Thought Machine, Mambu, Leveris
+etc. are quite small themselves.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;микросервисы-позволяют-быстрее-пилить-новые-продукты&#34;&gt;Микросервисы позволяют быстрее пилить новые продукты&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Our technology is highly flexible. We use micro services. These are
+small pieces of software code performing unique functions. For example: charging a
+fee, changing an address, charging an interest rate etc. Because we can assemble
+those micro services highly flexibly, it significantly reduces the time it takes to build
+new products on the new platform.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;EP: смена адреса - это не микросервис, по крайней мере не в архитектурном смысле (вызов API
+одного из сервисов, я так полагаю), но насчет гибкости разработки - именно так.&lt;/p&gt;
+
+&lt;h2 id=&#34;у-банков-только-шесть-функций&#34;&gt;У банков только шесть функций.&lt;/h2&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Banks only do six things. They make and receive payments. They borrow and lend. They provide risk management services, often in the form of insurance. And they provide information
+to their customers on all of those things.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;EP: еще трансформируют maturity, мне кажется. Иногда - сидят в капитале чего-то (step-in).
+Сама идея разобрать банк на подфункции, эти или немного другие, очень близка.&lt;/p&gt;
+
+&lt;p&gt;Чтение продолжится&amp;hellip;.&lt;/p&gt;
+
+&lt;p&gt;Источник: &lt;a href=&#34;https://www.citivelocity.com/citigps/bank-x-new-new-banks/&#34; target=&#34;_blank&#34;&gt;Bank X. The New New Banks&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Дэшборд, но не Tableau?</title>
