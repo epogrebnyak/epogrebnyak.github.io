@@ -7,8 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Evgeniy Pogrebnyak</copyright>
-    <lastBuildDate>Mon, 18 Mar 2019 11:23:56 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 29 Sep 2019 23:16:46 +0300</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>My Repos for Learning</title>
+      <link>https://epogrebnyak.github.io/post/2019-09-29-my-repos-for-learning/</link>
+      <pubDate>Sun, 29 Sep 2019 23:16:46 +0300</pubDate>
+      
+      <guid>https://epogrebnyak.github.io/post/2019-09-29-my-repos-for-learning/</guid>
+      <description>&lt;p&gt;I have got several Gihub repos for learning:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/epogrebnyak/notes-linux-cli&#34; target=&#34;_blank&#34;&gt;using cli, linux and WSL&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/epogrebnyak/notes-pandoc&#34; target=&#34;_blank&#34;&gt;using pandoc as citation manager&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/epogrebnyak/learn&#34; target=&#34;_blank&#34;&gt;general programming tips and book references&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/epogrebnyak/superhero&#34; target=&#34;_blank&#34;&gt;superhero&lt;/a&gt; to teach IT to business analysts&lt;/li&gt;
+&lt;li&gt;visualisation techniques&lt;/li&gt;
+&lt;li&gt;and probably others, listed in &lt;a href=&#34;https://github.com/epogrebnyak/lighttable&#34; target=&#34;_blank&#34;&gt;lighttable&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;There are way too many repos. It would be nice to publish them under one roof and single contents.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Julia Programming Language Introduction</title>

@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Evgeniy Pogrebnyak</copyright>
-    <lastBuildDate>Mon, 18 Mar 2019 11:23:56 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 29 Sep 2019 23:16:46 +0300</lastBuildDate>
     
 	<atom:link href="https://epogrebnyak.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>My Repos for Learning</title>
+      <link>https://epogrebnyak.github.io/post/2019-09-29-my-repos-for-learning/</link>
+      <pubDate>Sun, 29 Sep 2019 23:16:46 +0300</pubDate>
+      
+      <guid>https://epogrebnyak.github.io/post/2019-09-29-my-repos-for-learning/</guid>
+      <description>I have got several Gihub repos for learning:
+ using cli, linux and WSL using pandoc as citation manager general programming tips and book references superhero to teach IT to business analysts visualisation techniques and probably others, listed in lighttable  There are way too many repos. It would be nice to publish them under one roof and single contents.</description>
+    </item>
     
     <item>
       <title>Julia Programming Language Introduction</title>
