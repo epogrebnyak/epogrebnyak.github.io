@@ -1,1 +1,24 @@
-site_name: My Docs
+# Project information
+site_name: Evgeniy Pogrebnyak (EPo)
+site_url: https://epogrebnyak.github.io/
+site_author: Evgeny Pogrebnyak
+site_description: >-
+  Economics, code and writing.
+
+nav:
+  - Home: index.md
+  - Archive:
+    - Academic themed page: academic.md
+
+theme:
+  name: material
+  palette:
+    primary: blue gray
+
+markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true  
+  - footnotes
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg  
