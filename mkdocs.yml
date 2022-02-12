@@ -7,15 +7,15 @@ site_description: >-
 
 nav:
   - Home: index.md
-  - Archive:
-    - Academic themed page: academic.md
+  - Reading List: reading-list.md
 
 theme:
   name: material
   palette:
-    primary: blue gray
+    primary: light blue
 
 markdown_extensions:
+  - attr_list
   - pymdownx.tasklist:
       custom_checkbox: true  
   - footnotes
