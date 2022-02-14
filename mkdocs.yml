@@ -7,7 +7,6 @@ site_description: >-
 
 nav:
   - Home: index.md
-  - For editing: reading-list.md
 
 theme:
   name: material
